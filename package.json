@@ -1,0 +1,10 @@
+{
+  "name": "strabos-epiphany",
+  "version": "0.0.1",
+  "description": "Interactive world history map.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+[
+  { "year": -3100, "title": "Unification of Upper and Lower Egypt", "region": "Egypt", "lat": 29.98, "lng": 31.13, "description": "Narmer unifies the Two Lands, founding the First Dynasty and the pharaonic state." },
+  { "year": -2560, "title": "Great Pyramid of Giza completed", "region": "Egypt", "lat": 29.98, "lng": 31.13, "description": "The pyramid of Khufu rises, remaining the tallest human structure for ~3,800 years." },
+  { "year": -1792, "title": "Hammurabi takes the throne of Babylon", "region": "Mesopotamia", "lat": 32.54, "lng": 44.42, "description": "His code of law carves 282 rulings into basalt." },
+  { "year": -776, "title": "First recorded Olympic Games", "region": "Greece", "lat": 37.64, "lng": 21.63, "description": "The games at Olympia become a Panhellenic institution." },
+  { "year": -551, "title": "Birth of Confucius", "region": "China", "lat": 35.60, "lng": 116.98, "description": "In the state of Lu. His teachings reshape East Asian ethics and governance." },
+  { "year": -336, "title": "Alexander ascends the Macedonian throne", "region": "Macedon", "lat": 40.95, "lng": 22.52, "description": "At twenty, he begins the campaign that stretches Greek culture to the Indus." },
+  { "year": -221, "title": "Qin Shi Huang unifies China", "region": "China", "lat": 34.37, "lng": 108.94, "description": "First emperor of a unified China. Standardizes writing, weights, and axle widths." },
+  { "year": 30, "title": "Crucifixion of Jesus", "region": "Judaea", "lat": 31.78, "lng": 35.22, "description": "Under Pontius Pilate, during the reign of Tiberius." },
+  { "year": 622, "title": "The Hijra", "region": "Arabia", "lat": 24.47, "lng": 39.61, "description": "Muhammad and his followers migrate from Mecca to Medina. Year one of the Islamic calendar." },
+  { "year": 1066, "title": "Battle of Hastings", "region": "England", "lat": 50.91, "lng": 0.49, "description": "William of Normandy defeats Harold Godwinson, reshaping English language and law." },
+  { "year": 1206, "title": "Genghis Khan proclaimed", "region": "Mongolia", "lat": 48.37, "lng": 106.90, "description": "Temujin unites the Mongol tribes. The empire that follows reaches from Korea to Hungary." },
+  { "year": 1492, "title": "Columbus reaches the Caribbean", "region": "Bahamas", "lat": 24.00, "lng": -74.50, "description": "Sailing for Spain, he makes landfall on an island he names San Salvador." },
+  { "year": 1517, "title": "Luther nails the 95 Theses", "region": "Germany", "lat": 51.87, "lng": 12.65, "description": "In Wittenberg. The Protestant Reformation splits Western Christianity." },
+  { "year": 1776, "title": "US Declaration of Independence", "region": "United States", "lat": 39.95, "lng": -75.15, "description": "Philadelphia. Thirteen colonies declare separation from Britain." },
+  { "year": 1789, "title": "Storming of the Bastille", "region": "France", "lat": 48.85, "lng": 2.37, "description": "The French Revolution begins; the old regime will not survive the decade." },
+  { "year": 1945, "title": "Hiroshima and Nagasaki", "region": "Japan", "lat": 34.39, "lng": 132.45, "description": "First and only wartime uses of nuclear weapons. Japan surrenders days later." },
+  { "year": 1969, "title": "Apollo 11 lunar landing", "region": "Earth", "lat": 28.57, "lng": -80.65, "description": "Launched from Kennedy Space Center. Armstrong and Aldrin walk the Moon." }
+]
