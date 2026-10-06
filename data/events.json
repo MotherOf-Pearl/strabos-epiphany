@@ -1,19 +1,3242 @@
 [
-  { "year": -3100, "title": "Unification of Upper and Lower Egypt", "region": "Egypt", "lat": 29.98, "lng": 31.13, "description": "Narmer unifies the Two Lands, founding the First Dynasty and the pharaonic state." },
-  { "year": -2560, "title": "Great Pyramid of Giza completed", "region": "Egypt", "lat": 29.98, "lng": 31.13, "description": "The pyramid of Khufu rises, remaining the tallest human structure for ~3,800 years." },
-  { "year": -1792, "title": "Hammurabi takes the throne of Babylon", "region": "Mesopotamia", "lat": 32.54, "lng": 44.42, "description": "His code of law carves 282 rulings into basalt." },
-  { "year": -776, "title": "First recorded Olympic Games", "region": "Greece", "lat": 37.64, "lng": 21.63, "description": "The games at Olympia become a Panhellenic institution." },
-  { "year": -551, "title": "Birth of Confucius", "region": "China", "lat": 35.60, "lng": 116.98, "description": "In the state of Lu. His teachings reshape East Asian ethics and governance." },
-  { "year": -336, "title": "Alexander ascends the Macedonian throne", "region": "Macedon", "lat": 40.95, "lng": 22.52, "description": "At twenty, he begins the campaign that stretches Greek culture to the Indus." },
-  { "year": -221, "title": "Qin Shi Huang unifies China", "region": "China", "lat": 34.37, "lng": 108.94, "description": "First emperor of a unified China. Standardizes writing, weights, and axle widths." },
-  { "year": 30, "title": "Crucifixion of Jesus", "region": "Judaea", "lat": 31.78, "lng": 35.22, "description": "Under Pontius Pilate, during the reign of Tiberius." },
-  { "year": 622, "title": "The Hijra", "region": "Arabia", "lat": 24.47, "lng": 39.61, "description": "Muhammad and his followers migrate from Mecca to Medina. Year one of the Islamic calendar." },
-  { "year": 1066, "title": "Battle of Hastings", "region": "England", "lat": 50.91, "lng": 0.49, "description": "William of Normandy defeats Harold Godwinson, reshaping English language and law." },
-  { "year": 1206, "title": "Genghis Khan proclaimed", "region": "Mongolia", "lat": 48.37, "lng": 106.90, "description": "Temujin unites the Mongol tribes. The empire that follows reaches from Korea to Hungary." },
-  { "year": 1492, "title": "Columbus reaches the Caribbean", "region": "Bahamas", "lat": 24.00, "lng": -74.50, "description": "Sailing for Spain, he makes landfall on an island he names San Salvador." },
-  { "year": 1517, "title": "Luther nails the 95 Theses", "region": "Germany", "lat": 51.87, "lng": 12.65, "description": "In Wittenberg. The Protestant Reformation splits Western Christianity." },
-  { "year": 1776, "title": "US Declaration of Independence", "region": "United States", "lat": 39.95, "lng": -75.15, "description": "Philadelphia. Thirteen colonies declare separation from Britain." },
-  { "year": 1789, "title": "Storming of the Bastille", "region": "France", "lat": 48.85, "lng": 2.37, "description": "The French Revolution begins; the old regime will not survive the decade." },
-  { "year": 1945, "title": "Hiroshima and Nagasaki", "region": "Japan", "lat": 34.39, "lng": 132.45, "description": "First and only wartime uses of nuclear weapons. Japan surrenders days later." },
-  { "year": 1969, "title": "Apollo 11 lunar landing", "region": "Earth", "lat": 28.57, "lng": -80.65, "description": "Launched from Kennedy Space Center. Armstrong and Aldrin walk the Moon." }
+  {
+    "year": -3100,
+    "title": "Unification of Upper and Lower Egypt",
+    "region": "Egypt",
+    "lat": 29.98,
+    "lng": 31.13,
+    "description": "Narmer unifies the Two Lands, founding the First Dynasty and the pharaonic state.",
+    "category": "politics"
+  },
+  {
+    "year": -3000,
+    "title": "Caral city flourishes in Norte Chico",
+    "region": "Andes (Peru)",
+    "lat": -10.89,
+    "lng": -77.52,
+    "description": "Monumental pyramids and sunken plazas rise at Caral in the Supe Valley, anchoring the oldest known urban civilization in the Americas.",
+    "category": "culture"
+  },
+  {
+    "year": -3000,
+    "title": "Austronesian settlers reach Taiwan's expansion phase",
+    "region": "Taiwan",
+    "lat": 23.7,
+    "lng": 121.0,
+    "description": "Neolithic Austronesian farmers in Taiwan begin the maritime diaspora that will carry language and outrigger canoes across the Pacific and Indian Oceans.",
+    "category": "exploration"
+  },
+  {
+    "year": -2900,
+    "title": "Early Dynastic city-states of Sumer rise",
+    "region": "Mesopotamia",
+    "lat": 31.33,
+    "lng": 45.72,
+    "description": "Uruk, Ur, and Lagash crystallize into rival walled city-states ruled by ensis, ushering in Sumer's Early Dynastic period.",
+    "category": "politics"
+  },
+  {
+    "year": -2800,
+    "title": "First phase of Stonehenge begun",
+    "region": "Britain",
+    "lat": 51.18,
+    "lng": -1.83,
+    "description": "Neolithic builders dig the circular ditch and bank at Stonehenge on Salisbury Plain, the earliest stage of the monument.",
+    "category": "religion"
+  },
+  {
+    "year": -2700,
+    "title": "Gilgamesh reigns at Uruk",
+    "region": "Mesopotamia",
+    "lat": 31.32,
+    "lng": 45.64,
+    "description": "The semi-legendary king Gilgamesh rules Uruk, later immortalized in the world's oldest surviving epic poem.",
+    "category": "culture"
+  },
+  {
+    "year": -2686,
+    "title": "Old Kingdom of Egypt begins",
+    "region": "Egypt",
+    "lat": 29.87,
+    "lng": 31.22,
+    "description": "The Third Dynasty opens Egypt's Old Kingdom, the age of divine pharaohs and the first great pyramids at Memphis.",
+    "category": "politics"
+  },
+  {
+    "year": -2667,
+    "title": "Imhotep builds the Step Pyramid of Djoser",
+    "region": "Egypt",
+    "lat": 29.87,
+    "lng": 31.22,
+    "description": "The architect Imhotep raises the first monumental stone building, Djoser's step pyramid at Saqqara.",
+    "category": "science"
+  },
+  {
+    "year": -2600,
+    "title": "Mohenjo-daro and Harappa flourish",
+    "region": "Indus Valley",
+    "lat": 27.33,
+    "lng": 68.14,
+    "description": "The Indus Valley cities reach their mature phase with grid streets, brick drains, and standardized weights across a vast network.",
+    "category": "culture"
+  },
+  {
+    "year": -2600,
+    "title": "Maya lowland villages take root in Mesoamerica",
+    "region": "Mesoamerica",
+    "lat": 17.22,
+    "lng": -89.62,
+    "description": "Early Preclassic farming hamlets spread through the Maya lowlands as maize agriculture and ceramics take hold.",
+    "category": "economy"
+  },
+  {
+    "year": -2560,
+    "title": "Great Pyramid of Giza completed",
+    "region": "Egypt",
+    "lat": 29.98,
+    "lng": 31.13,
+    "description": "The pyramid of Khufu rises, remaining the tallest human structure for ~3,800 years.",
+    "category": "culture"
+  },
+  {
+    "year": -2500,
+    "title": "Longshan jade and walled towns in China",
+    "region": "China",
+    "lat": 36.42,
+    "lng": 117.0,
+    "description": "The Longshan culture produces eggshell-thin black pottery and fortified rammed-earth towns across the Yellow River basin.",
+    "category": "culture"
+  },
+  {
+    "year": -2500,
+    "title": "Skara Brae village occupied in Orkney",
+    "region": "Britain",
+    "lat": 59.05,
+    "lng": -3.34,
+    "description": "Stone-built houses with hearths and box beds shelter a Neolithic farming community on the windswept Orkney coast.",
+    "category": "culture"
+  },
+  {
+    "year": -2500,
+    "title": "Kerma culture rises in Nubia",
+    "region": "Nubia (Sudan)",
+    "lat": 19.6,
+    "lng": 30.41,
+    "description": "The kingdom of Kerma emerges on the Upper Nile as a powerful African rival and trading partner to Egypt.",
+    "category": "politics"
+  },
+  {
+    "year": -2334,
+    "title": "Sargon of Akkad founds the first empire",
+    "region": "Mesopotamia",
+    "lat": 33.1,
+    "lng": 44.1,
+    "description": "Sargon the Great conquers the Sumerian cities and forges the Akkadian Empire, history's first multiethnic empire.",
+    "category": "war"
+  },
+  {
+    "year": -2300,
+    "title": "Dilmun thrives as a Gulf trade hub",
+    "region": "Bahrain (Persian Gulf)",
+    "lat": 26.07,
+    "lng": 50.55,
+    "description": "The island entrepot of Dilmun grows wealthy brokering copper, pearls, and goods between Mesopotamia and the Indus.",
+    "category": "economy"
+  },
+  {
+    "year": -2200,
+    "title": "4.2-kiloyear drought topples kingdoms",
+    "region": "Mesopotamia",
+    "lat": 36.86,
+    "lng": 40.07,
+    "description": "A severe multi-decade drought collapses the Akkadian Empire and strains Old Kingdom Egypt in a global climate shock.",
+    "category": "disaster"
+  },
+  {
+    "year": -2181,
+    "title": "First Intermediate Period fractures Egypt",
+    "region": "Egypt",
+    "lat": 25.7,
+    "lng": 32.65,
+    "description": "The Old Kingdom collapses into famine and rival dynasties as central pharaonic authority dissolves.",
+    "category": "politics"
+  },
+  {
+    "year": -2112,
+    "title": "Ur-Nammu founds the Third Dynasty of Ur",
+    "region": "Mesopotamia",
+    "lat": 30.96,
+    "lng": 46.1,
+    "description": "Ur-Nammu revives Sumerian power, builds the great ziggurat of Ur, and issues one of the earliest known law codes.",
+    "category": "politics"
+  },
+  {
+    "year": -2055,
+    "title": "Mentuhotep II reunifies Egypt",
+    "region": "Egypt",
+    "lat": 25.7,
+    "lng": 32.65,
+    "description": "Mentuhotep II of Thebes defeats his rivals and opens the Middle Kingdom, a golden age of literature and stability.",
+    "category": "politics"
+  },
+  {
+    "year": -2000,
+    "title": "Lapita precursors push into Near Oceania",
+    "region": "Oceania (Bismarck)",
+    "lat": -5.0,
+    "lng": 150.0,
+    "description": "Austronesian seafarers settle the Bismarck Archipelago, laying the maritime foundation for later Lapita voyaging.",
+    "category": "exploration"
+  },
+  {
+    "year": -1900,
+    "title": "Indus Valley cities decline",
+    "region": "Indus Valley",
+    "lat": 29.0,
+    "lng": 73.5,
+    "description": "Shifting rivers and monsoon failure drain the great Harappan cities as populations disperse eastward.",
+    "category": "disaster"
+  },
+  {
+    "year": -1900,
+    "title": "Assyrian merchant colonies at Kanesh",
+    "region": "Anatolia",
+    "lat": 38.84,
+    "lng": 35.63,
+    "description": "Old Assyrian traders establish the karum at Kanesh, leaving thousands of cuneiform tablets recording tin and textile caravans.",
+    "category": "economy"
+  },
+  {
+    "year": -1800,
+    "title": "Minoan palaces rebuilt on Crete",
+    "region": "Crete",
+    "lat": 35.3,
+    "lng": 25.16,
+    "description": "After earthquakes, the Minoans rebuild grand palaces at Knossos with frescoes, plumbing, and vast storerooms.",
+    "category": "culture"
+  },
+  {
+    "year": -1792,
+    "title": "Hammurabi takes the throne of Babylon",
+    "region": "Mesopotamia",
+    "lat": 32.54,
+    "lng": 44.42,
+    "description": "His code of law carves 282 rulings into basalt.",
+    "category": "politics"
+  },
+  {
+    "year": -1750,
+    "title": "Erlitou state emerges in China",
+    "region": "China",
+    "lat": 34.7,
+    "lng": 112.69,
+    "description": "The bronze-casting Erlitou culture builds China's first palace complexes, often linked to the semi-legendary Xia dynasty.",
+    "category": "politics"
+  },
+  {
+    "year": -1650,
+    "title": "Hyksos seize power in Lower Egypt",
+    "region": "Egypt",
+    "lat": 30.79,
+    "lng": 31.82,
+    "description": "Levantine Hyksos rulers take the Nile Delta, introducing the horse-drawn chariot and composite bow to Egypt.",
+    "category": "war"
+  },
+  {
+    "year": -1600,
+    "title": "Shang dynasty founded in China",
+    "region": "China",
+    "lat": 36.1,
+    "lng": 114.35,
+    "description": "The Shang establish a dynasty renowned for oracle-bone writing, ancestor worship, and masterful bronze ritual vessels.",
+    "category": "politics"
+  },
+  {
+    "year": -1600,
+    "title": "Mycenaean shaft-grave elites rise in Greece",
+    "region": "Greece",
+    "lat": 37.73,
+    "lng": 22.76,
+    "description": "Warrior lords at Mycenae are buried with gold masks and weapons as Mycenaean civilization takes shape on the mainland.",
+    "category": "culture"
+  },
+  {
+    "year": -1550,
+    "title": "New Kingdom of Egypt begins",
+    "region": "Egypt",
+    "lat": 25.7,
+    "lng": 32.65,
+    "description": "Ahmose I expels the Hyksos and launches the imperial New Kingdom, Egypt's age of conquest and monumental Thebes.",
+    "category": "war"
+  },
+  {
+    "year": -1500,
+    "title": "Rigvedic hymns composed in northwest India",
+    "region": "South Asia",
+    "lat": 31.63,
+    "lng": 74.87,
+    "description": "Indo-Aryan priests compose the oral hymns of the Rigveda along the Punjab's rivers, the oldest layer of Vedic religion.",
+    "category": "religion"
+  },
+  {
+    "year": -1500,
+    "title": "Polynesian-bound Lapita potters set out",
+    "region": "Oceania (Pacific)",
+    "lat": -8.0,
+    "lng": 160.0,
+    "description": "Lapita voyagers with distinctive dentate-stamped pottery begin leapfrogging into the previously uninhabited Remote Pacific.",
+    "category": "exploration"
+  },
+  {
+    "year": -1479,
+    "title": "Battle of Megiddo under Thutmose III",
+    "region": "Levant",
+    "lat": 32.58,
+    "lng": 35.18,
+    "description": "Thutmose III crushes a Canaanite coalition at Megiddo in the first battle recorded in reliable tactical detail.",
+    "category": "war"
+  },
+  {
+    "year": -1450,
+    "title": "Mycenaeans take over Minoan Knossos",
+    "region": "Crete",
+    "lat": 35.3,
+    "lng": 25.16,
+    "description": "Mycenaean Greeks dominate Crete and adapt Linear B script to write an early form of Greek on clay tablets.",
+    "category": "politics"
+  },
+  {
+    "year": -1353,
+    "title": "Akhenaten's monotheist revolution",
+    "region": "Egypt",
+    "lat": 27.65,
+    "lng": 30.9,
+    "description": "Pharaoh Akhenaten abolishes the old gods for the sun-disk Aten and builds a new capital at Amarna.",
+    "category": "religion"
+  },
+  {
+    "year": -1327,
+    "title": "Tutankhamun buried in the Valley of the Kings",
+    "region": "Egypt",
+    "lat": 25.74,
+    "lng": 32.6,
+    "description": "The boy-king Tutankhamun is entombed with golden treasures, restoring the traditional gods after Akhenaten's heresy.",
+    "category": "religion"
+  },
+  {
+    "year": -1300,
+    "title": "Olmec civilization emerges at San Lorenzo",
+    "region": "Mesoamerica",
+    "lat": 17.76,
+    "lng": -94.74,
+    "description": "The Olmec carve colossal basalt heads at San Lorenzo, founding Mesoamerica's first great civilization.",
+    "category": "culture"
+  },
+  {
+    "year": -1274,
+    "title": "Battle of Kadesh between Egypt and Hatti",
+    "region": "Levant (Syria)",
+    "lat": 34.57,
+    "lng": 36.52,
+    "description": "Ramesses II and the Hittite king Muwatalli II clash in the largest chariot battle ever fought, ending in stalemate.",
+    "category": "war"
+  },
+  {
+    "year": -1250,
+    "title": "Great Temple of Ramesses II at Abu Simbel",
+    "region": "Egypt (Nubia)",
+    "lat": 22.34,
+    "lng": 31.63,
+    "description": "Ramesses II carves colossal rock-cut temples at Abu Simbel to project power over Nubia and honor the gods.",
+    "category": "culture"
+  },
+  {
+    "year": -1240,
+    "title": "Assyrians sack Babylon under Tukulti-Ninurta",
+    "region": "Mesopotamia",
+    "lat": 32.54,
+    "lng": 44.42,
+    "description": "Tukulti-Ninurta I of Assyria storms Babylon and carries off its king, asserting Assyrian supremacy in the north.",
+    "category": "war"
+  },
+  {
+    "year": -1200,
+    "title": "Bronze Age Collapse engulfs the East Mediterranean",
+    "region": "Eastern Mediterranean",
+    "lat": 35.9,
+    "lng": 35.9,
+    "description": "The Sea Peoples, droughts, and quakes shatter the Hittite, Mycenaean, and Levantine kingdoms in a cascading systemic collapse.",
+    "category": "disaster"
+  },
+  {
+    "year": -1200,
+    "title": "Olmec rise at San Lorenzo",
+    "region": "Mesoamerica",
+    "lat": 17.76,
+    "lng": -94.74,
+    "description": "At San Lorenzo the Olmec carved colossal basalt heads and built the earliest great civic center of the Mexican lowlands.",
+    "category": "culture"
+  },
+  {
+    "year": -1200,
+    "title": "Collapse of Bronze Age palaces",
+    "region": "Eastern Mediterranean",
+    "lat": 37.98,
+    "lng": 23.73,
+    "description": "Mycenaean palace centers burned and Hittite power dissolved as the Sea Peoples and systemic failure ended the Late Bronze Age.",
+    "category": "disaster"
+  },
+  {
+    "year": -1183,
+    "title": "Traditional fall of Troy",
+    "region": "Anatolia",
+    "lat": 39.96,
+    "lng": 26.24,
+    "description": "By later Greek reckoning the citadel of Ilios fell to the Achaeans, an event the Bronze Age world would remember as the Trojan War.",
+    "category": "war"
+  },
+  {
+    "year": -1046,
+    "title": "Zhou conquest of Shang at Muye",
+    "region": "North China",
+    "lat": 35.46,
+    "lng": 114.07,
+    "description": "King Wu of Zhou shattered the Shang army at the Battle of Muye and claimed the Mandate of Heaven over the Yellow River plain.",
+    "category": "war"
+  },
+  {
+    "year": -1000,
+    "title": "David makes Jerusalem his capital",
+    "region": "Levant",
+    "lat": 31.78,
+    "lng": 35.22,
+    "description": "King David seized the Jebusite stronghold of Zion and established Jerusalem as the royal city of a united Israelite kingdom.",
+    "category": "politics"
+  },
+  {
+    "year": -966,
+    "title": "Solomon builds the First Temple",
+    "region": "Levant",
+    "lat": 31.78,
+    "lng": 35.24,
+    "description": "Solomon raised the Temple on Mount Moriah, giving the cult of Yahweh its central sanctuary in Jerusalem.",
+    "category": "religion"
+  },
+  {
+    "year": -950,
+    "title": "Chavin cult takes root at Chavin de Huantar",
+    "region": "Andes",
+    "lat": -9.59,
+    "lng": -77.18,
+    "description": "In the Peruvian highlands the temple of Chavin de Huantar became a pilgrimage hub spreading a feline-fanged religious iconography across the Andes.",
+    "category": "religion"
+  },
+  {
+    "year": -900,
+    "title": "Nok terracotta culture flourishes",
+    "region": "West Africa",
+    "lat": 9.5,
+    "lng": 8.0,
+    "description": "On the Jos Plateau the Nok people sculpted striking hollow terracotta figures and smelted iron, among sub-Saharan Africa's earliest.",
+    "category": "culture"
+  },
+  {
+    "year": -814,
+    "title": "Phoenicians found Carthage",
+    "region": "North Africa",
+    "lat": 36.85,
+    "lng": 10.32,
+    "description": "Settlers from Tyre led by Dido established Carthage, destined to rule a maritime empire across the western Mediterranean.",
+    "category": "politics"
+  },
+  {
+    "year": -800,
+    "title": "Hallstatt salt economy flourishes",
+    "region": "Central Europe",
+    "lat": 47.56,
+    "lng": 13.65,
+    "description": "Celtic chieftains of the Hallstatt culture grew wealthy mining Alpine rock salt and trading iron across temperate Europe.",
+    "category": "economy"
+  },
+  {
+    "year": -776,
+    "title": "First recorded Olympic Games",
+    "region": "Greece",
+    "lat": 37.64,
+    "lng": 21.63,
+    "description": "The games at Olympia become a Panhellenic institution.",
+    "category": "politics"
+  },
+  {
+    "year": -771,
+    "title": "Western Zhou falls, Spring and Autumn begins",
+    "region": "North China",
+    "lat": 34.27,
+    "lng": 108.95,
+    "description": "Nomad raids sacked the Zhou capital near Hao, forcing the court east and ushering in the fractured Spring and Autumn period.",
+    "category": "politics"
+  },
+  {
+    "year": -753,
+    "title": "Traditional founding of Rome",
+    "region": "Italy",
+    "lat": 41.89,
+    "lng": 12.48,
+    "description": "By tradition Romulus founded Rome on the Palatine Hill, the legendary birth of the city on the Tiber.",
+    "category": "politics"
+  },
+  {
+    "year": -722,
+    "title": "Assyria destroys the Kingdom of Israel",
+    "region": "Levant",
+    "lat": 32.28,
+    "lng": 35.19,
+    "description": "Sargon II captured Samaria and deported the northern Israelite tribes, ending the Kingdom of Israel.",
+    "category": "war"
+  },
+  {
+    "year": -701,
+    "title": "Sennacherib besieges Jerusalem",
+    "region": "Levant",
+    "lat": 31.6,
+    "lng": 34.88,
+    "description": "The Assyrian king overran Judah and besieged Jerusalem, where Hezekiah's defiance and Lachish's fall were carved in stone.",
+    "category": "war"
+  },
+  {
+    "year": -660,
+    "title": "Zoroaster's teaching spreads in Iran",
+    "region": "Persia",
+    "lat": 36.3,
+    "lng": 59.6,
+    "description": "The prophet Zarathustra preached worship of Ahura Mazda and a cosmic struggle of truth against the lie across the Iranian plateau.",
+    "category": "religion"
+  },
+  {
+    "year": -612,
+    "title": "Fall of Nineveh",
+    "region": "Mesopotamia",
+    "lat": 36.36,
+    "lng": 43.15,
+    "description": "A coalition of Medes and Babylonians stormed and burned Nineveh, bringing the Assyrian Empire to a violent end.",
+    "category": "war"
+  },
+  {
+    "year": -586,
+    "title": "Babylon destroys Jerusalem",
+    "region": "Levant",
+    "lat": 31.78,
+    "lng": 35.23,
+    "description": "Nebuchadnezzar II razed Solomon's Temple and carried Judah's elite into the Babylonian Exile.",
+    "category": "war"
+  },
+  {
+    "year": -585,
+    "title": "Thales predicts a solar eclipse",
+    "region": "Ionia",
+    "lat": 37.53,
+    "lng": 27.27,
+    "description": "Thales of Miletus reportedly foretold the eclipse that halted a battle between Medes and Lydians, a landmark of rational inquiry.",
+    "category": "science"
+  },
+  {
+    "year": -563,
+    "title": "Birth of the Buddha",
+    "region": "India",
+    "lat": 27.47,
+    "lng": 83.28,
+    "description": "Siddhartha Gautama was born at Lumbini, the prince whose awakening would found Buddhism.",
+    "category": "religion"
+  },
+  {
+    "year": -551,
+    "title": "Birth of Confucius",
+    "region": "China",
+    "lat": 35.6,
+    "lng": 116.98,
+    "description": "In the state of Lu. His teachings reshape East Asian ethics and governance.",
+    "category": "politics"
+  },
+  {
+    "year": -539,
+    "title": "Cyrus the Great takes Babylon",
+    "region": "Mesopotamia",
+    "lat": 32.54,
+    "lng": 44.42,
+    "description": "Cyrus of Persia entered Babylon and freed the exiled Jews, founding the vast Achaemenid Empire.",
+    "category": "politics"
+  },
+  {
+    "year": -525,
+    "title": "Persia conquers Egypt",
+    "region": "Egypt",
+    "lat": 31.04,
+    "lng": 31.38,
+    "description": "Cambyses II defeated Pharaoh Psamtik III at Pelusium, adding the Nile to the Achaemenid realm.",
+    "category": "war"
+  },
+  {
+    "year": -515,
+    "title": "Second Temple completed in Jerusalem",
+    "region": "Levant",
+    "lat": 31.78,
+    "lng": 35.24,
+    "description": "Returned exiles under Persian patronage finished rebuilding the Temple, reviving worship in Jerusalem.",
+    "category": "religion"
+  },
+  {
+    "year": -509,
+    "title": "Founding of the Roman Republic",
+    "region": "Italy",
+    "lat": 41.89,
+    "lng": 12.48,
+    "description": "Romans expelled the last Tarquin king and established a republic governed by elected consuls.",
+    "category": "politics"
+  },
+  {
+    "year": -508,
+    "title": "Cleisthenes reforms Athenian democracy",
+    "region": "Greece",
+    "lat": 37.97,
+    "lng": 23.73,
+    "description": "Cleisthenes reorganized Athens into demes and tribes, laying the institutional foundation of democracy.",
+    "category": "politics"
+  },
+  {
+    "year": -490,
+    "title": "Battle of Marathon",
+    "region": "Greece",
+    "lat": 38.15,
+    "lng": 23.96,
+    "description": "Athenian hoplites routed Darius's invading Persians on the plain of Marathon, saving the young democracy.",
+    "category": "war"
+  },
+  {
+    "year": -480,
+    "title": "Battles of Thermopylae and Salamis",
+    "region": "Greece",
+    "lat": 37.96,
+    "lng": 23.57,
+    "description": "After Leonidas's stand at Thermopylae, the Greek fleet crushed Xerxes's navy in the straits of Salamis.",
+    "category": "war"
+  },
+  {
+    "year": -450,
+    "title": "La Tene Celtic art emerges",
+    "region": "Central Europe",
+    "lat": 47.0,
+    "lng": 7.0,
+    "description": "Celtic smiths of the La Tene culture developed a flowing, curvilinear style on weapons and jewelry across Iron Age Europe.",
+    "category": "culture"
+  },
+  {
+    "year": -450,
+    "title": "Herodotus writes his Histories",
+    "region": "Greece",
+    "lat": 37.04,
+    "lng": 27.42,
+    "description": "Herodotus of Halicarnassus composed his sweeping inquiry into the Greco-Persian wars, earning the title father of history.",
+    "category": "science"
+  },
+  {
+    "year": -447,
+    "title": "Construction of the Parthenon begins",
+    "region": "Greece",
+    "lat": 37.97,
+    "lng": 23.73,
+    "description": "Pericles commissioned the marble Parthenon atop the Acropolis as the crowning monument of Athens's golden age.",
+    "category": "culture"
+  },
+  {
+    "year": -431,
+    "title": "Peloponnesian War erupts",
+    "region": "Greece",
+    "lat": 37.9,
+    "lng": 22.88,
+    "description": "Athens and Sparta plunged the Greek world into a generation of war chronicled by Thucydides.",
+    "category": "war"
+  },
+  {
+    "year": -400,
+    "title": "Zapotec capital rises at Monte Alban",
+    "region": "Mesoamerica",
+    "lat": 17.04,
+    "lng": -96.77,
+    "description": "The Zapotec leveled a mountaintop in Oaxaca to build Monte Alban, carving glyphs among Mesoamerica's earliest writing.",
+    "category": "culture"
+  },
+  {
+    "year": -399,
+    "title": "Trial and death of Socrates",
+    "region": "Greece",
+    "lat": 37.97,
+    "lng": 23.72,
+    "description": "An Athenian jury condemned Socrates for impiety, and the philosopher drank hemlock rather than flee.",
+    "category": "culture"
+  },
+  {
+    "year": -387,
+    "title": "Gauls sack Rome",
+    "region": "Italy",
+    "lat": 41.89,
+    "lng": 12.49,
+    "description": "Celtic warriors under Brennus defeated the Romans at the Allia and sacked the city, a trauma Rome never forgot.",
+    "category": "war"
+  },
+  {
+    "year": -336,
+    "title": "Alexander ascends the Macedonian throne",
+    "region": "Macedon",
+    "lat": 40.95,
+    "lng": 22.52,
+    "description": "At twenty, he begins the campaign that stretches Greek culture to the Indus.",
+    "category": "politics"
+  },
+  {
+    "year": -331,
+    "title": "Alexander defeats Darius at Gaugamela",
+    "region": "Mesopotamia",
+    "lat": 36.36,
+    "lng": 43.25,
+    "description": "Alexander the Great broke the Persian host at Gaugamela, toppling the Achaemenid Empire.",
+    "category": "war"
+  },
+  {
+    "year": -323,
+    "title": "Death of Alexander at Babylon",
+    "region": "Mesopotamia",
+    "lat": 32.54,
+    "lng": 44.42,
+    "description": "Alexander died in Babylon at thirty-two, leaving an empire that his generals would carve into Hellenistic kingdoms.",
+    "category": "politics"
+  },
+  {
+    "year": -322,
+    "title": "Chandragupta founds the Maurya Empire",
+    "region": "India",
+    "lat": 25.61,
+    "lng": 85.14,
+    "description": "Chandragupta Maurya overthrew the Nanda dynasty at Pataliputra and built the first great empire of the Indian subcontinent.",
+    "category": "politics"
+  },
+  {
+    "year": -300,
+    "title": "Euclid compiles the Elements",
+    "region": "Egypt",
+    "lat": 31.2,
+    "lng": 29.92,
+    "description": "At Alexandria Euclid organized geometry into the Elements, the foundational textbook of mathematics for two millennia.",
+    "category": "science"
+  },
+  {
+    "year": -300,
+    "title": "Maya build cities in the Peten",
+    "region": "Mesoamerica",
+    "lat": 17.22,
+    "lng": -89.62,
+    "description": "Lowland Maya raised the pyramids and plazas of early centers like Nakbe and El Mirador in the Peten jungle.",
+    "category": "culture"
+  },
+  {
+    "year": -268,
+    "title": "Ashoka embraces Buddhism",
+    "region": "India",
+    "lat": 25.61,
+    "lng": 85.14,
+    "description": "Sickened by the carnage of Kalinga, the Mauryan emperor Ashoka renounced conquest and spread Buddhist dharma across his realm.",
+    "category": "religion"
+  },
+  {
+    "year": -255,
+    "title": "Eratosthenes measures the Earth",
+    "region": "Egypt",
+    "lat": 31.2,
+    "lng": 29.92,
+    "description": "The Alexandrian scholar Eratosthenes calculated the circumference of the Earth from shadows cast at Syene and Alexandria.",
+    "category": "science"
+  },
+  {
+    "year": -221,
+    "title": "Qin Shi Huang unifies China",
+    "region": "China",
+    "lat": 34.37,
+    "lng": 108.94,
+    "description": "First emperor of a unified China. Standardizes writing, weights, and axle widths.",
+    "category": "culture"
+  },
+  {
+    "year": -216,
+    "title": "Hannibal crushes Rome at Cannae",
+    "region": "Italy",
+    "lat": 41.3,
+    "lng": 16.13,
+    "description": "In the Second Punic War Hannibal annihilated a larger Roman army by double envelopment at Cannae.",
+    "category": "war"
+  },
+  {
+    "year": -214,
+    "title": "Great Wall linked under the Qin",
+    "region": "North China",
+    "lat": 40.43,
+    "lng": 116.57,
+    "description": "Qin Shi Huang joined the northern frontier ramparts into a continuous Great Wall against the steppe nomads.",
+    "category": "economy"
+  },
+  {
+    "year": -202,
+    "title": "Scipio defeats Hannibal at Zama",
+    "region": "North Africa",
+    "lat": 36.3,
+    "lng": 9.5,
+    "description": "Scipio Africanus beat Hannibal at Zama, ending the Second Punic War and Carthage's bid for Mediterranean mastery.",
+    "category": "war"
+  },
+  {
+    "year": -202,
+    "title": "Liu Bang founds the Han dynasty",
+    "region": "North China",
+    "lat": 34.27,
+    "lng": 108.95,
+    "description": "The commoner rebel Liu Bang triumphed in civil war and founded the Han dynasty, a golden age of Chinese imperial rule.",
+    "category": "politics"
+  },
+  {
+    "year": -146,
+    "title": "Rome destroys Carthage",
+    "region": "North Africa",
+    "lat": 36.85,
+    "lng": 10.32,
+    "description": "In the Third Punic War Rome razed Carthage and sowed its ruins, ending seven centuries of the Phoenician city.",
+    "category": "war"
+  },
+  {
+    "year": -138,
+    "title": "Zhang Qian opens the Silk Road",
+    "region": "Central Asia",
+    "lat": 39.47,
+    "lng": 75.99,
+    "description": "The Han envoy Zhang Qian journeyed west into the lands of the Yuezhi, opening the overland routes that became the Silk Road.",
+    "category": "exploration"
+  },
+  {
+    "year": -44,
+    "title": "Assassination of Julius Caesar",
+    "region": "Italy",
+    "lat": 41.9,
+    "lng": 12.48,
+    "description": "Senators stabbed the dictator Julius Caesar on the Ides of March, hastening the fall of the Roman Republic.",
+    "category": "politics"
+  },
+  {
+    "year": -31,
+    "title": "Battle of Actium",
+    "region": "Greece",
+    "lat": 38.93,
+    "lng": 20.76,
+    "description": "Octavian's fleet defeated Antony and Cleopatra off Actium, clearing his path to become the first Roman emperor.",
+    "category": "war"
+  },
+  {
+    "year": -30,
+    "title": "Rome annexes Ptolemaic Egypt",
+    "region": "Egypt",
+    "lat": 31.2,
+    "lng": 29.92,
+    "description": "After Cleopatra's suicide Octavian absorbed Egypt, ending the last Hellenistic kingdom and the dynasty of the Ptolemies.",
+    "category": "politics"
+  },
+  {
+    "year": 9,
+    "title": "Wang Mang founds the Xin dynasty",
+    "region": "China",
+    "lat": 34.27,
+    "lng": 108.95,
+    "description": "The regent Wang Mang usurped the Han throne and proclaimed the short-lived Xin dynasty, launching radical land and currency reforms from Chang'an.",
+    "category": "politics"
+  },
+  {
+    "year": 9,
+    "title": "Battle of the Teutoburg Forest",
+    "region": "Germania",
+    "lat": 52.18,
+    "lng": 8.35,
+    "description": "Arminius annihilated three Roman legions under Varus in the German forests, halting Roman expansion east of the Rhine forever.",
+    "category": "war"
+  },
+  {
+    "year": 14,
+    "title": "Death of Augustus",
+    "region": "Roman Empire",
+    "lat": 41.9,
+    "lng": 12.5,
+    "description": "The first Roman emperor died at Nola, bequeathing the Principate to his stepson Tiberius after decades of consolidating sole rule.",
+    "category": "politics"
+  },
+  {
+    "year": 25,
+    "title": "Restoration of the Han under Guangwu",
+    "region": "China",
+    "lat": 34.62,
+    "lng": 112.45,
+    "description": "Liu Xiu defeated rivals and refounded the Han dynasty with its capital at Luoyang, inaugurating the Eastern Han period.",
+    "category": "politics"
+  },
+  {
+    "year": 30,
+    "title": "Crucifixion of Jesus",
+    "region": "Judaea",
+    "lat": 31.78,
+    "lng": 35.22,
+    "description": "Under Pontius Pilate, during the reign of Tiberius.",
+    "category": "politics"
+  },
+  {
+    "year": 43,
+    "title": "Roman conquest of Britain begins",
+    "region": "Britain",
+    "lat": 51.38,
+    "lng": 0.52,
+    "description": "Emperor Claudius launched the invasion of Britain, landing legions in Kent and establishing the province of Britannia.",
+    "category": "war"
+  },
+  {
+    "year": 64,
+    "title": "Great Fire of Rome",
+    "region": "Roman Empire",
+    "lat": 41.89,
+    "lng": 12.49,
+    "description": "A six-day blaze devastated ten of Rome's fourteen districts, after which Nero blamed and persecuted the city's Christian community.",
+    "category": "disaster"
+  },
+  {
+    "year": 68,
+    "title": "Buddhism reaches the Han court",
+    "region": "China",
+    "lat": 34.73,
+    "lng": 112.47,
+    "description": "The White Horse Temple was founded at Luoyang, traditionally China's first Buddhist monastery and a milestone of the faith's eastward spread.",
+    "category": "religion"
+  },
+  {
+    "year": 70,
+    "title": "Destruction of the Second Temple",
+    "region": "Judaea",
+    "lat": 31.78,
+    "lng": 35.24,
+    "description": "Titus's legions sacked Jerusalem and burned the Temple, ending the Great Jewish Revolt and scattering the Jewish people.",
+    "category": "war"
+  },
+  {
+    "year": 79,
+    "title": "Eruption of Mount Vesuvius",
+    "region": "Italy",
+    "lat": 40.75,
+    "lng": 14.49,
+    "description": "Vesuvius buried Pompeii and Herculaneum under ash and pyroclastic surges, preserving two Roman towns and killing thousands.",
+    "category": "disaster"
+  },
+  {
+    "year": 97,
+    "title": "Gan Ying's embassy toward Rome",
+    "region": "Central Asia",
+    "lat": 33.31,
+    "lng": 44.36,
+    "description": "The Han envoy Gan Ying reached the Persian Gulf seeking Daqin (Rome) but was dissuaded from the sea crossing by Parthian sailors.",
+    "category": "exploration"
+  },
+  {
+    "year": 105,
+    "title": "Cai Lun perfects papermaking",
+    "region": "China",
+    "lat": 34.73,
+    "lng": 112.47,
+    "description": "The court official Cai Lun presented an improved paper of bark, hemp, and rags to the Han emperor, revolutionizing the recording of knowledge.",
+    "category": "science"
+  },
+  {
+    "year": 117,
+    "title": "Roman Empire at its greatest extent",
+    "region": "Roman Empire",
+    "lat": 41.9,
+    "lng": 12.5,
+    "description": "On Trajan's death the empire stretched from Britain to Mesopotamia, its largest territorial reach before Hadrian pulled back the frontiers.",
+    "category": "politics"
+  },
+  {
+    "year": 122,
+    "title": "Construction of Hadrian's Wall",
+    "region": "Britain",
+    "lat": 55.02,
+    "lng": -2.29,
+    "description": "Emperor Hadrian ordered an 80-mile stone wall across northern Britain to mark and defend the empire's edge against the northern tribes.",
+    "category": "culture"
+  },
+  {
+    "year": 132,
+    "title": "Zhang Heng's seismoscope",
+    "region": "China",
+    "lat": 34.73,
+    "lng": 112.47,
+    "description": "The polymath Zhang Heng unveiled a bronze instrument that could detect the direction of distant earthquakes, a landmark of ancient science.",
+    "category": "science"
+  },
+  {
+    "year": 150,
+    "title": "Teotihuacan's Pyramid of the Sun",
+    "region": "Mesoamerica",
+    "lat": 19.69,
+    "lng": -98.84,
+    "description": "The great Pyramid of the Sun rose over the planned metropolis of Teotihuacan, then among the largest cities on Earth.",
+    "category": "culture"
+  },
+  {
+    "year": 150,
+    "title": "Ptolemy compiles the Geography",
+    "region": "Egypt",
+    "lat": 31.2,
+    "lng": 29.92,
+    "description": "At Alexandria, Ptolemy mapped the known world with coordinates of latitude and longitude, shaping geography for over a millennium.",
+    "category": "science"
+  },
+  {
+    "year": 166,
+    "title": "Roman envoys reach the Han court",
+    "region": "China",
+    "lat": 21.03,
+    "lng": 105.85,
+    "description": "Travelers claiming to represent the Roman emperor Antoninus arrived in Han China by sea, the first recorded direct contact between the two empires.",
+    "category": "exploration"
+  },
+  {
+    "year": 180,
+    "title": "Antonine Plague ravages Rome",
+    "region": "Roman Empire",
+    "lat": 41.89,
+    "lng": 12.49,
+    "description": "A pandemic, likely smallpox, killed millions across the empire and claimed the emperor Marcus Aurelius at Vindobona.",
+    "category": "disaster"
+  },
+  {
+    "year": 184,
+    "title": "Yellow Turban Rebellion",
+    "region": "China",
+    "lat": 36.06,
+    "lng": 114.49,
+    "description": "A massive Daoist-inspired peasant uprising erupted against the Han, accelerating the dynasty's collapse into warlordism.",
+    "category": "war"
+  },
+  {
+    "year": 208,
+    "title": "Battle of Red Cliffs",
+    "region": "China",
+    "lat": 29.85,
+    "lng": 113.63,
+    "description": "The allied southern forces defeated Cao Cao's fleet on the Yangtze, cementing the tripartite division that became the Three Kingdoms.",
+    "category": "war"
+  },
+  {
+    "year": 220,
+    "title": "End of the Han, Three Kingdoms begin",
+    "region": "China",
+    "lat": 34.46,
+    "lng": 113.77,
+    "description": "Cao Pi deposed the last Han emperor and declared the state of Wei, formally opening the Three Kingdoms era.",
+    "category": "politics"
+  },
+  {
+    "year": 224,
+    "title": "Ardashir founds the Sassanid Empire",
+    "region": "Persia",
+    "lat": 29.1,
+    "lng": 52.88,
+    "description": "Ardashir I overthrew the Parthians at the Battle of Hormozdgan and established the Sassanid dynasty, reviving a centralized Persian state.",
+    "category": "politics"
+  },
+  {
+    "year": 250,
+    "title": "Maya lowland cities flourish",
+    "region": "Mesoamerica",
+    "lat": 17.22,
+    "lng": -89.62,
+    "description": "At Tikal and across the Petén, Classic Maya kings raised temple-pyramids and carved stelae recording dynasties and wars.",
+    "category": "culture"
+  },
+  {
+    "year": 260,
+    "title": "Shapur I captures Emperor Valerian",
+    "region": "Persia",
+    "lat": 37.17,
+    "lng": 38.8,
+    "description": "The Sassanid king Shapur I defeated and took captive the Roman emperor Valerian near Edessa, a humiliation immortalized in rock reliefs.",
+    "category": "war"
+  },
+  {
+    "year": 271,
+    "title": "Aurelian defeats Palmyra",
+    "region": "Syria",
+    "lat": 34.55,
+    "lng": 38.27,
+    "description": "Emperor Aurelian crushed Queen Zenobia's breakaway Palmyrene Empire, reuniting the fracturing Roman realm.",
+    "category": "war"
+  },
+  {
+    "year": 280,
+    "title": "Jin dynasty reunifies China",
+    "region": "China",
+    "lat": 32.06,
+    "lng": 118.8,
+    "description": "The Jin dynasty conquered Eastern Wu, briefly reuniting China under a single throne after the Three Kingdoms' division.",
+    "category": "politics"
+  },
+  {
+    "year": 285,
+    "title": "Moche civilization at its height",
+    "region": "Andes",
+    "lat": -8.13,
+    "lng": -79.08,
+    "description": "On Peru's north coast the Moche built the great adobe Huacas of the Sun and Moon and produced vivid ceramic portrait vessels.",
+    "category": "culture"
+  },
+  {
+    "year": 301,
+    "title": "Armenia adopts Christianity",
+    "region": "Caucasus",
+    "lat": 40.17,
+    "lng": 44.3,
+    "description": "King Tiridates III, converted by Gregory the Illuminator, made Armenia the first kingdom to embrace Christianity as its state religion.",
+    "category": "religion"
+  },
+  {
+    "year": 313,
+    "title": "Edict of Milan",
+    "region": "Roman Empire",
+    "lat": 45.46,
+    "lng": 9.19,
+    "description": "Constantine and Licinius proclaimed religious toleration across the empire, ending the persecution of Christians.",
+    "category": "religion"
+  },
+  {
+    "year": 320,
+    "title": "Chandragupta I founds the Gupta Empire",
+    "region": "India",
+    "lat": 25.59,
+    "lng": 85.14,
+    "description": "Chandragupta I united the Ganges plain and inaugurated the Gupta dynasty, ushering in a golden age of Indian civilization.",
+    "category": "politics"
+  },
+  {
+    "year": 325,
+    "title": "Council of Nicaea",
+    "region": "Anatolia",
+    "lat": 40.43,
+    "lng": 29.72,
+    "description": "Constantine convened the first ecumenical council, which defined the Nicene Creed and condemned Arianism.",
+    "category": "religion"
+  },
+  {
+    "year": 330,
+    "title": "Dedication of Constantinople",
+    "region": "Byzantine Empire",
+    "lat": 41.01,
+    "lng": 28.98,
+    "description": "Constantine refounded Byzantium as the new imperial capital, a Christian city astride the Bosporus guarding Europe and Asia.",
+    "category": "politics"
+  },
+  {
+    "year": 350,
+    "title": "Aksum sacks Meroe",
+    "region": "Africa",
+    "lat": 14.13,
+    "lng": 38.72,
+    "description": "King Ezana of Aksum, having converted to Christianity, campaigned into Nubia and overthrew the kingdom of Kush.",
+    "category": "war"
+  },
+  {
+    "year": 350,
+    "title": "Nazca lines etched in the desert",
+    "region": "Andes",
+    "lat": -14.74,
+    "lng": -75.13,
+    "description": "The Nazca people completed vast geoglyphs of animals and lines across the Peruvian desert, visible only from the heights.",
+    "category": "culture"
+  },
+  {
+    "year": 360,
+    "title": "Hypatia's father Theon at Alexandria",
+    "region": "Egypt",
+    "lat": 31.2,
+    "lng": 29.92,
+    "description": "The mathematician Theon worked at the Museum of Alexandria, editing Euclid and preserving Greek science into late antiquity.",
+    "category": "science"
+  },
+  {
+    "year": 375,
+    "title": "Huns cross the Volga",
+    "region": "Eurasian Steppe",
+    "lat": 48.7,
+    "lng": 44.52,
+    "description": "The westward surge of the Huns shattered the Gothic kingdoms, triggering the great migrations that would reshape Europe.",
+    "category": "war"
+  },
+  {
+    "year": 378,
+    "title": "Battle of Adrianople",
+    "region": "Balkans",
+    "lat": 41.68,
+    "lng": 26.56,
+    "description": "Gothic cavalry destroyed the eastern Roman army and killed Emperor Valens, a disaster marking the empire's deepening crisis.",
+    "category": "war"
+  },
+  {
+    "year": 380,
+    "title": "Christianity made the Roman state religion",
+    "region": "Roman Empire",
+    "lat": 41.12,
+    "lng": 16.87,
+    "description": "Emperor Theodosius issued the Edict of Thessalonica, establishing Nicene Christianity as the official faith of the empire.",
+    "category": "religion"
+  },
+  {
+    "year": 399,
+    "title": "Faxian's pilgrimage to India",
+    "region": "India",
+    "lat": 25.14,
+    "lng": 85.44,
+    "description": "The Chinese monk Faxian set out overland to India to collect Buddhist scriptures, later recording his travels across Asia.",
+    "category": "exploration"
+  },
+  {
+    "year": 405,
+    "title": "Kalidasa and the Gupta golden age",
+    "region": "India",
+    "lat": 25.45,
+    "lng": 81.85,
+    "description": "Under Chandragupta II the poet Kalidasa flourished, while Gupta scholars advanced mathematics, astronomy, and the arts.",
+    "category": "culture"
+  },
+  {
+    "year": 410,
+    "title": "Sack of Rome by the Visigoths",
+    "region": "Italy",
+    "lat": 41.89,
+    "lng": 12.49,
+    "description": "Alaric's Visigoths plundered Rome for three days, the first fall of the city to a foreign enemy in eight centuries.",
+    "category": "war"
+  },
+  {
+    "year": 451,
+    "title": "Battle of the Catalaunian Plains",
+    "region": "Gaul",
+    "lat": 48.96,
+    "lng": 4.36,
+    "description": "A Roman-Visigothic coalition halted Attila the Hun's invasion of Gaul in one of late antiquity's bloodiest battles.",
+    "category": "war"
+  },
+  {
+    "year": 455,
+    "title": "Vandals sack Rome",
+    "region": "Italy",
+    "lat": 41.89,
+    "lng": 12.49,
+    "description": "Geiseric's Vandals, having built a kingdom in North Africa, crossed the sea and thoroughly plundered the city of Rome.",
+    "category": "war"
+  },
+  {
+    "year": 476,
+    "title": "Fall of the Western Roman Empire",
+    "region": "Italy",
+    "lat": 44.42,
+    "lng": 12.2,
+    "description": "The Germanic commander Odoacer deposed the boy-emperor Romulus Augustulus, ending the line of Western Roman emperors.",
+    "category": "politics"
+  },
+  {
+    "year": 499,
+    "title": "Aryabhata's astronomical treatise",
+    "region": "India",
+    "lat": 25.59,
+    "lng": 85.14,
+    "description": "The mathematician Aryabhata completed the Aryabhatiya, proposing a rotating Earth and advancing trigonometry and the value of pi.",
+    "category": "science"
+  },
+  {
+    "year": 527,
+    "title": "Justinian becomes emperor",
+    "region": "Byzantine Empire",
+    "lat": 41.01,
+    "lng": 28.98,
+    "description": "Justinian I took the Byzantine throne and launched campaigns to reconquer the lost West and codify Roman law.",
+    "category": "politics"
+  },
+  {
+    "year": 532,
+    "title": "Nika riots and Hagia Sophia begun",
+    "region": "Byzantine Empire",
+    "lat": 41.01,
+    "lng": 28.98,
+    "description": "After deadly riots gutted Constantinople, Justinian ordered the rebuilding of Hagia Sophia as the greatest church of Christendom.",
+    "category": "culture"
+  },
+  {
+    "year": 538,
+    "title": "Buddhism introduced to Japan",
+    "region": "Japan",
+    "lat": 34.49,
+    "lng": 135.8,
+    "description": "A Korean embassy from Baekje presented Buddhist images and sutras to the Yamato court, planting the faith in Japan.",
+    "category": "religion"
+  },
+  {
+    "year": 541,
+    "title": "Plague of Justinian",
+    "region": "Byzantine Empire",
+    "lat": 41.01,
+    "lng": 28.98,
+    "description": "The first recorded bubonic plague pandemic swept the Mediterranean from Constantinople, killing a vast share of the population.",
+    "category": "disaster"
+  },
+  {
+    "year": 570,
+    "title": "Birth of Muhammad",
+    "region": "Arabia",
+    "lat": 21.42,
+    "lng": 39.83,
+    "description": "The future prophet of Islam was born at Mecca into the Quraysh tribe, in a city of merchants and pilgrimage.",
+    "category": "religion"
+  },
+  {
+    "year": 589,
+    "title": "Sui dynasty reunifies China",
+    "region": "China",
+    "lat": 34.27,
+    "lng": 108.95,
+    "description": "The Sui conquered the southern Chen dynasty, reuniting China after nearly four centuries of division.",
+    "category": "politics"
+  },
+  {
+    "year": 610,
+    "title": "Muhammad's First Revelation",
+    "region": "Arabia",
+    "lat": 21.46,
+    "lng": 39.75,
+    "description": "In a cave on Mount Hira above Mecca, Muhammad reported the first Quranic revelation, marking the birth of Islam.",
+    "category": "religion"
+  },
+  {
+    "year": 618,
+    "title": "Founding of the Tang Dynasty",
+    "region": "China",
+    "lat": 34.27,
+    "lng": 108.95,
+    "description": "Li Yuan seized Chang'an and proclaimed the Tang Dynasty, launching an age of cosmopolitan brilliance across China.",
+    "category": "politics"
+  },
+  {
+    "year": 622,
+    "title": "The Hijra",
+    "region": "Arabia",
+    "lat": 24.47,
+    "lng": 39.61,
+    "description": "Muhammad and his followers migrate from Mecca to Medina. Year one of the Islamic calendar.",
+    "category": "religion"
+  },
+  {
+    "year": 632,
+    "title": "Death of Muhammad and Rashidun Caliphate",
+    "region": "Arabia",
+    "lat": 24.47,
+    "lng": 39.61,
+    "description": "Muhammad died in Medina, and Abu Bakr became the first caliph to lead the rapidly expanding Muslim community.",
+    "category": "politics"
+  },
+  {
+    "year": 636,
+    "title": "Battle of Yarmouk",
+    "region": "Levant",
+    "lat": 32.74,
+    "lng": 35.9,
+    "description": "Arab armies crushed the Byzantine forces beside the Yarmouk River, stripping Syria from the Eastern Roman Empire.",
+    "category": "war"
+  },
+  {
+    "year": 642,
+    "title": "Muslim Conquest of Egypt",
+    "region": "Egypt",
+    "lat": 30.01,
+    "lng": 31.21,
+    "description": "Amr ibn al-As took Alexandria and Babylon fortress, ending seven centuries of Roman rule over Egypt.",
+    "category": "war"
+  },
+  {
+    "year": 645,
+    "title": "Taika Reforms in Japan",
+    "region": "Japan",
+    "lat": 34.49,
+    "lng": 135.83,
+    "description": "The Yamato court enacted sweeping Taika reforms modeled on Tang China, centralizing land and taxation under the emperor.",
+    "category": "politics"
+  },
+  {
+    "year": 651,
+    "title": "Fall of the Sasanian Empire",
+    "region": "Persia",
+    "lat": 36.3,
+    "lng": 59.6,
+    "description": "The murder of Yazdegerd III near Merv extinguished the Sasanian dynasty and opened Persia to Islam.",
+    "category": "war"
+  },
+  {
+    "year": 661,
+    "title": "Umayyad Caliphate Established",
+    "region": "Levant",
+    "lat": 33.51,
+    "lng": 36.29,
+    "description": "Mu'awiya made Damascus the capital of the new Umayyad Caliphate, founding Islam's first hereditary dynasty.",
+    "category": "politics"
+  },
+  {
+    "year": 683,
+    "title": "Great Jaguar Paw Reign at Tikal",
+    "region": "Mesoamerica",
+    "lat": 17.22,
+    "lng": -89.62,
+    "description": "Jasaw Chan K'awiil I revived the Maya city of Tikal, raising towering temple pyramids above the rainforest canopy.",
+    "category": "culture"
+  },
+  {
+    "year": 691,
+    "title": "Dome of the Rock Completed",
+    "region": "Levant",
+    "lat": 31.78,
+    "lng": 35.24,
+    "description": "Caliph Abd al-Malik completed the golden Dome of the Rock in Jerusalem, the earliest surviving Islamic monument.",
+    "category": "religion"
+  },
+  {
+    "year": 711,
+    "title": "Muslim Conquest of Hispania",
+    "region": "Iberia",
+    "lat": 36.14,
+    "lng": -5.35,
+    "description": "Tariq ibn Ziyad crossed at Gibraltar and shattered the Visigothic army, beginning nearly eight centuries of Al-Andalus.",
+    "category": "war"
+  },
+  {
+    "year": 712,
+    "title": "Great Mosque of Damascus Finished",
+    "region": "Levant",
+    "lat": 33.51,
+    "lng": 36.31,
+    "description": "Al-Walid I completed the Great Mosque of Damascus, its glittering mosaics setting a template for Islamic sacred architecture.",
+    "category": "culture"
+  },
+  {
+    "year": 732,
+    "title": "Battle of Tours",
+    "region": "Western Europe",
+    "lat": 47.39,
+    "lng": 0.69,
+    "description": "Charles Martel halted a Muslim advance into Francia between Tours and Poitiers, checking Islam's northward spread.",
+    "category": "war"
+  },
+  {
+    "year": 751,
+    "title": "Battle of Talas",
+    "region": "Central Asia",
+    "lat": 42.52,
+    "lng": 72.23,
+    "description": "Abbasid forces defeated a Tang army by the Talas River, and captured artisans soon carried papermaking west into the Islamic world.",
+    "category": "war"
+  },
+  {
+    "year": 755,
+    "title": "An Lushan Rebellion",
+    "region": "China",
+    "lat": 34.27,
+    "lng": 108.95,
+    "description": "General An Lushan revolted against the Tang, unleashing a devastating war that drained the empire of millions of lives.",
+    "category": "war"
+  },
+  {
+    "year": 762,
+    "title": "Baghdad Founded",
+    "region": "Mesopotamia",
+    "lat": 33.31,
+    "lng": 44.36,
+    "description": "Caliph al-Mansur laid out the round city of Baghdad on the Tigris, soon the richest metropolis of the medieval world.",
+    "category": "politics"
+  },
+  {
+    "year": 768,
+    "title": "Charlemagne Becomes King of the Franks",
+    "region": "Western Europe",
+    "lat": 50.78,
+    "lng": 6.08,
+    "description": "Charlemagne inherited the Frankish throne and began the conquests that would forge a new Western empire from Aachen.",
+    "category": "politics"
+  },
+  {
+    "year": 793,
+    "title": "Viking Raid on Lindisfarne",
+    "region": "Northern Europe",
+    "lat": 55.68,
+    "lng": -1.8,
+    "description": "Norse raiders sacked the monastery of Lindisfarne, a shocking strike that announced the dawn of the Viking Age.",
+    "category": "war"
+  },
+  {
+    "year": 800,
+    "title": "Charlemagne Crowned Emperor",
+    "region": "Western Europe",
+    "lat": 41.9,
+    "lng": 12.45,
+    "description": "Pope Leo III crowned Charlemagne emperor in Rome on Christmas Day, reviving the imperial title in the Latin West.",
+    "category": "politics"
+  },
+  {
+    "year": 802,
+    "title": "Jayavarman II Founds the Khmer Empire",
+    "region": "Southeast Asia",
+    "lat": 13.43,
+    "lng": 103.87,
+    "description": "Jayavarman II declared himself universal monarch on the Kulen plateau, founding the Khmer Empire of Angkor.",
+    "category": "politics"
+  },
+  {
+    "year": 820,
+    "title": "Al-Khwarizmi and the House of Wisdom",
+    "region": "Mesopotamia",
+    "lat": 33.31,
+    "lng": 44.36,
+    "description": "At Baghdad's House of Wisdom, al-Khwarizmi wrote the treatise on al-jabr that gave algebra its name.",
+    "category": "science"
+  },
+  {
+    "year": 836,
+    "title": "Samarra Becomes Abbasid Capital",
+    "region": "Mesopotamia",
+    "lat": 34.2,
+    "lng": 43.87,
+    "description": "Caliph al-Mu'tasim moved his court and Turkish guard to the new palace city of Samarra on the Tigris.",
+    "category": "politics"
+  },
+  {
+    "year": 840,
+    "title": "Collapse of the Uyghur Khaganate",
+    "region": "Central Asia",
+    "lat": 47.42,
+    "lng": 102.84,
+    "description": "A Kyrgyz onslaught and harsh winter destroyed the Uyghur Khaganate, scattering its people southward into the Tarim Basin.",
+    "category": "war"
+  },
+  {
+    "year": 862,
+    "title": "Rurik and the Rus at Novgorod",
+    "region": "Eastern Europe",
+    "lat": 58.52,
+    "lng": 31.28,
+    "description": "The Varangian chieftain Rurik took control at Novgorod, founding the dynasty that would rule the Kievan Rus.",
+    "category": "politics"
+  },
+  {
+    "year": 868,
+    "title": "The Diamond Sutra Printed",
+    "region": "China",
+    "lat": 40.14,
+    "lng": 94.66,
+    "description": "A Tang printer produced the Diamond Sutra at Dunhuang, the earliest dated complete printed book in the world.",
+    "category": "science"
+  },
+  {
+    "year": 874,
+    "title": "Norse Settlement of Iceland",
+    "region": "North Atlantic",
+    "lat": 64.15,
+    "lng": -21.94,
+    "description": "Ingolfr Arnarson built his farmstead at Reykjavik, beginning the permanent Norse colonization of Iceland.",
+    "category": "exploration"
+  },
+  {
+    "year": 893,
+    "title": "Golden Age of Ghana Empire",
+    "region": "West Africa",
+    "lat": 15.83,
+    "lng": -9.3,
+    "description": "The Soninke kings of Ghana grew rich taxing gold and salt caravans crossing the western Sahara.",
+    "category": "economy"
+  },
+  {
+    "year": 909,
+    "title": "Fatimid Caliphate Proclaimed",
+    "region": "North Africa",
+    "lat": 35.5,
+    "lng": 10.9,
+    "description": "The Isma'ili Shia leader Abdullah al-Mahdi proclaimed the Fatimid Caliphate in Ifriqiya, rivaling Baghdad.",
+    "category": "religion"
+  },
+  {
+    "year": 911,
+    "title": "Rollo Granted Normandy",
+    "region": "Western Europe",
+    "lat": 49.44,
+    "lng": 1.1,
+    "description": "The Frankish king ceded land around Rouen to the Viking Rollo, planting the seed of the Duchy of Normandy.",
+    "category": "politics"
+  },
+  {
+    "year": 927,
+    "title": "England Unified under Athelstan",
+    "region": "Northern Europe",
+    "lat": 53.96,
+    "lng": -1.08,
+    "description": "Athelstan took York and received the submission of northern kings, becoming the first ruler of a united England.",
+    "category": "politics"
+  },
+  {
+    "year": 936,
+    "title": "Otto I and the German Kingdom",
+    "region": "Central Europe",
+    "lat": 50.78,
+    "lng": 6.08,
+    "description": "Otto I was crowned at Aachen, beginning the reign that would restore imperial power and found the Holy Roman Empire.",
+    "category": "politics"
+  },
+  {
+    "year": 960,
+    "title": "Founding of the Song Dynasty",
+    "region": "China",
+    "lat": 34.8,
+    "lng": 114.3,
+    "description": "Zhao Kuangyin reunited China as Emperor Taizu of the Song, ushering in an era of commerce, science, and art.",
+    "category": "politics"
+  },
+  {
+    "year": 969,
+    "title": "Cairo Founded by the Fatimids",
+    "region": "Egypt",
+    "lat": 30.05,
+    "lng": 31.26,
+    "description": "Fatimid general Jawhar laid out al-Qahira beside the Nile, soon the brilliant capital of a Mediterranean empire.",
+    "category": "politics"
+  },
+  {
+    "year": 988,
+    "title": "Christianization of Kievan Rus",
+    "region": "Eastern Europe",
+    "lat": 50.45,
+    "lng": 30.52,
+    "description": "Vladimir the Great was baptized and had Kiev's idols thrown into the Dnieper, binding the Rus to Byzantine Christianity.",
+    "category": "religion"
+  },
+  {
+    "year": 1000,
+    "title": "Leif Erikson Reaches Vinland",
+    "region": "North America",
+    "lat": 51.6,
+    "lng": -55.53,
+    "description": "Leif Erikson led Norse sailors to Vinland at L'Anse aux Meadows, the first Europeans known to reach the Americas.",
+    "category": "exploration"
+  },
+  {
+    "year": 1008,
+    "title": "The Tale of Genji Written",
+    "region": "Japan",
+    "lat": 35.01,
+    "lng": 135.77,
+    "description": "At the Heian court in Kyoto, Murasaki Shikibu composed The Tale of Genji, often called the world's first novel.",
+    "category": "culture"
+  },
+  {
+    "year": 1021,
+    "title": "Ibn al-Haytham's Book of Optics",
+    "region": "Egypt",
+    "lat": 30.05,
+    "lng": 31.26,
+    "description": "In Cairo, Ibn al-Haytham completed his Book of Optics, laying the foundations of the experimental scientific method.",
+    "category": "science"
+  },
+  {
+    "year": 1040,
+    "title": "Pi Sheng Invents Movable Type",
+    "region": "China",
+    "lat": 34.8,
+    "lng": 114.3,
+    "description": "The Song artisan Bi Sheng devised movable type from baked clay, centuries before Gutenberg's press in Europe.",
+    "category": "science"
+  },
+  {
+    "year": 1054,
+    "title": "The Great Schism",
+    "region": "Byzantine Empire",
+    "lat": 41.01,
+    "lng": 28.98,
+    "description": "Mutual excommunications between Rome and Constantinople split Christendom into the Catholic and Orthodox churches.",
+    "category": "religion"
+  },
+  {
+    "year": 1054,
+    "title": "Crab Nebula Supernova Recorded",
+    "region": "China",
+    "lat": 34.27,
+    "lng": 108.95,
+    "description": "Song astronomers recorded a dazzling guest star in Taurus, the supernova that left behind the Crab Nebula.",
+    "category": "science"
+  },
+  {
+    "year": 1066,
+    "title": "Battle of Hastings",
+    "region": "England",
+    "lat": 50.91,
+    "lng": 0.49,
+    "description": "William of Normandy defeats Harold Godwinson, reshaping English language and law.",
+    "category": "war"
+  },
+  {
+    "year": 1071,
+    "title": "Battle of Manzikert",
+    "region": "Anatolia",
+    "lat": 39.14,
+    "lng": 42.54,
+    "description": "Seljuk Turks routed the Byzantines and captured their emperor, opening Anatolia to Turkish settlement.",
+    "category": "war"
+  },
+  {
+    "year": 1076,
+    "title": "Almoravids Sack Koumbi Saleh",
+    "region": "West Africa",
+    "lat": 15.77,
+    "lng": -7.98,
+    "description": "Almoravid and Sahelian pressure broke the Ghana Empire's grip on the trans-Saharan gold trade.",
+    "category": "war"
+  },
+  {
+    "year": 1095,
+    "title": "Pope Urban II Calls the First Crusade",
+    "region": "Western Europe",
+    "lat": 45.78,
+    "lng": 3.08,
+    "description": "At Clermont, Pope Urban II summoned Christian knights to recover Jerusalem, launching the era of the Crusades.",
+    "category": "religion"
+  },
+  {
+    "year": 1099,
+    "title": "Crusaders Capture Jerusalem",
+    "region": "Levant",
+    "lat": 31.78,
+    "lng": 35.22,
+    "description": "After a brutal siege, the First Crusade stormed Jerusalem and established the Latin Kingdom in the Holy Land.",
+    "category": "war"
+  },
+  {
+    "year": 1113,
+    "title": "Angkor Wat Begun under Suryavarman II",
+    "region": "Southeast Asia",
+    "lat": 13.41,
+    "lng": 103.87,
+    "description": "Suryavarman II began raising Angkor Wat, the vast temple-mountain that remains the largest religious monument on Earth.",
+    "category": "culture"
+  },
+  {
+    "year": 1150,
+    "title": "Rise of Great Zimbabwe",
+    "region": "Southern Africa",
+    "lat": -20.27,
+    "lng": 30.93,
+    "description": "Shona builders began the dry-stone walls of Great Zimbabwe, hub of a kingdom trading gold to the Indian Ocean coast.",
+    "category": "economy"
+  },
+  {
+    "year": 1168,
+    "title": "Toltec Capital Tula Falls",
+    "region": "Mesoamerica",
+    "lat": 20.06,
+    "lng": -99.34,
+    "description": "The Toltec capital of Tula was burned and abandoned, ending a civilization later revered by the Aztecs.",
+    "category": "disaster"
+  },
+  {
+    "year": 1175,
+    "title": "Hohokam Canal Cities of the Southwest",
+    "region": "North America",
+    "lat": 33.45,
+    "lng": -112.07,
+    "description": "The Hohokam expanded vast irrigation canals across the Salt River valley, sustaining desert farming towns.",
+    "category": "economy"
+  },
+  {
+    "year": 1185,
+    "title": "Minamoto Victory and the Kamakura Shogunate",
+    "region": "Japan",
+    "lat": 34.08,
+    "lng": 134.6,
+    "description": "The Minamoto crushed the Taira at Dan-no-ura, paving the way for Japan's first military shogunate.",
+    "category": "war"
+  },
+  {
+    "year": 1190,
+    "title": "Polynesian Voyagers Settle New Zealand",
+    "region": "Oceania",
+    "lat": -36.85,
+    "lng": 174.76,
+    "description": "Ancestral Maori navigators reached Aotearoa by double-hulled canoe, the last great landmass settled by humans.",
+    "category": "exploration"
+  },
+  {
+    "year": 1200,
+    "title": "Tiwanaku Decline in the Andes",
+    "region": "South America",
+    "lat": -16.55,
+    "lng": -68.67,
+    "description": "Prolonged drought drained the raised-field farms around Lake Titicaca, hastening the fall of the Tiwanaku state.",
+    "category": "disaster"
+  },
+  {
+    "year": 1206,
+    "title": "Genghis Khan proclaimed",
+    "region": "Mongolia",
+    "lat": 48.37,
+    "lng": 106.9,
+    "description": "Temujin unites the Mongol tribes. The empire that follows reaches from Korea to Hungary.",
+    "category": "exploration"
+  },
+  {
+    "year": 1206,
+    "title": "Genghis Khan unites the Mongols",
+    "region": "Mongolia",
+    "lat": 47.92,
+    "lng": 106.92,
+    "description": "Temujin is proclaimed Genghis Khan at a kurultai on the Onon River, forging the scattered steppe tribes into a single Mongol nation.",
+    "category": "politics"
+  },
+  {
+    "year": 1206,
+    "title": "Delhi Sultanate founded",
+    "region": "North India",
+    "lat": 28.61,
+    "lng": 77.21,
+    "description": "Qutb al-Din Aibak, a former Turkic slave-general, establishes Muslim rule over Delhi and begins the Qutb Minar.",
+    "category": "politics"
+  },
+  {
+    "year": 1211,
+    "title": "Mongol invasion of Jin China begins",
+    "region": "North China",
+    "lat": 39.9,
+    "lng": 116.4,
+    "description": "Genghis Khan's horsemen pour through the Great Wall and besiege the Jin dynasty's capital at Zhongdu.",
+    "category": "war"
+  },
+  {
+    "year": 1215,
+    "title": "Magna Carta sealed at Runnymede",
+    "region": "England",
+    "lat": 51.44,
+    "lng": -0.57,
+    "description": "King John bows to his rebellious barons and seals the Great Charter, binding the English crown to the rule of law.",
+    "category": "politics"
+  },
+  {
+    "year": 1219,
+    "title": "Mongols sack the Khwarazmian Empire",
+    "region": "Central Asia",
+    "lat": 39.65,
+    "lng": 66.96,
+    "description": "Enraged by a murdered embassy, Genghis Khan unleashes his armies on Samarkand and Bukhara, laying waste to Persia's eastern cities.",
+    "category": "war"
+  },
+  {
+    "year": 1258,
+    "title": "Fall of Baghdad to the Mongols",
+    "region": "Mesopotamia",
+    "lat": 33.32,
+    "lng": 44.36,
+    "description": "Hulagu Khan storms the Abbasid capital, executes the caliph, and casts the House of Wisdom's books into the Tigris until it runs black with ink.",
+    "category": "war"
+  },
+  {
+    "year": 1271,
+    "title": "Marco Polo departs for Cathay",
+    "region": "Venice",
+    "lat": 45.44,
+    "lng": 12.33,
+    "description": "The young Venetian sets out with his father and uncle on the Silk Road toward the court of Kublai Khan.",
+    "category": "exploration"
+  },
+  {
+    "year": 1274,
+    "title": "First Mongol invasion of Japan repelled",
+    "region": "Kyushu, Japan",
+    "lat": 33.59,
+    "lng": 130.4,
+    "description": "A typhoon the Japanese call kamikaze scatters Kublai Khan's invasion fleet off Hakata Bay.",
+    "category": "war"
+  },
+  {
+    "year": 1279,
+    "title": "Yuan dynasty conquers Song China",
+    "region": "South China",
+    "lat": 22.28,
+    "lng": 113.57,
+    "description": "At the naval battle of Yamen the last Song emperor drowns, completing the Mongol conquest of all China under Kublai Khan.",
+    "category": "politics"
+  },
+  {
+    "year": 1309,
+    "title": "Papacy moves to Avignon",
+    "region": "Provence",
+    "lat": 43.95,
+    "lng": 4.81,
+    "description": "Pope Clement V settles the Holy See at Avignon under French influence, beginning the papacy's seventy-year exile from Rome.",
+    "category": "religion"
+  },
+  {
+    "year": 1315,
+    "title": "Great Famine strikes Europe",
+    "region": "Northern Europe",
+    "lat": 52.52,
+    "lng": 13.4,
+    "description": "Years of torrential rain rot the crops and millions starve across a continent whose climate has turned suddenly cold and wet.",
+    "category": "disaster"
+  },
+  {
+    "year": 1324,
+    "title": "Mansa Musa's pilgrimage to Mecca",
+    "region": "Mali / Egypt",
+    "lat": 30.04,
+    "lng": 31.24,
+    "description": "The Mali emperor passes through Cairo distributing so much gold that its price collapses for a decade, revealing West Africa's fabulous wealth.",
+    "category": "economy"
+  },
+  {
+    "year": 1325,
+    "title": "Aztecs found Tenochtitlan",
+    "region": "Valley of Mexico",
+    "lat": 19.43,
+    "lng": -99.13,
+    "description": "The wandering Mexica build their island city on Lake Texcoco where they see an eagle perched on a cactus devouring a serpent.",
+    "category": "politics"
+  },
+  {
+    "year": 1325,
+    "title": "Ibn Battuta begins his travels",
+    "region": "Morocco",
+    "lat": 35.76,
+    "lng": -5.83,
+    "description": "A young Moroccan jurist leaves Tangier on a pilgrimage that will become a thirty-year journey across the whole of the Islamic world.",
+    "category": "exploration"
+  },
+  {
+    "year": 1337,
+    "title": "Hundred Years' War begins",
+    "region": "France",
+    "lat": 48.86,
+    "lng": 2.35,
+    "description": "Edward III of England claims the French throne, igniting a dynastic conflict that will scar France for over a century.",
+    "category": "war"
+  },
+  {
+    "year": 1347,
+    "title": "Black Death reaches Europe",
+    "region": "Sicily",
+    "lat": 37.07,
+    "lng": 15.29,
+    "description": "Plague-ridden Genoese galleys dock at Messina, loosing a pestilence that will kill a third of Europe within five years.",
+    "category": "disaster"
+  },
+  {
+    "year": 1368,
+    "title": "Ming dynasty overthrows the Yuan",
+    "region": "China",
+    "lat": 32.06,
+    "lng": 118.8,
+    "description": "The rebel peasant Zhu Yuanzhang drives the Mongols back to the steppe and proclaims himself the Hongwu Emperor at Nanjing.",
+    "category": "politics"
+  },
+  {
+    "year": 1378,
+    "title": "Western Schism splits the Church",
+    "region": "Rome",
+    "lat": 41.9,
+    "lng": 12.46,
+    "description": "Rival popes in Rome and Avignon excommunicate one another, dividing the loyalties of Christendom for nearly forty years.",
+    "category": "religion"
+  },
+  {
+    "year": 1398,
+    "title": "Timur sacks Delhi",
+    "region": "North India",
+    "lat": 28.61,
+    "lng": 77.21,
+    "description": "Tamerlane's army storms the Delhi Sultanate's capital and massacres its inhabitants, leaving the city in ruins for years.",
+    "category": "war"
+  },
+  {
+    "year": 1402,
+    "title": "Timur defeats the Ottomans at Ankara",
+    "region": "Anatolia",
+    "lat": 39.93,
+    "lng": 32.86,
+    "description": "Tamerlane captures Sultan Bayezid I in battle, shattering Ottoman power and delaying the fall of Constantinople by half a century.",
+    "category": "war"
+  },
+  {
+    "year": 1405,
+    "title": "Zheng He's first treasure voyage",
+    "region": "East China Sea",
+    "lat": 31.23,
+    "lng": 121.47,
+    "description": "The Ming admiral sets sail with a vast fleet of treasure ships to project Chinese power across the Indian Ocean.",
+    "category": "exploration"
+  },
+  {
+    "year": 1415,
+    "title": "Portugal seizes Ceuta",
+    "region": "North Africa",
+    "lat": 35.89,
+    "lng": -5.32,
+    "description": "Prince Henry the Navigator's capture of the Moroccan port launches Portugal's drive down the African coast.",
+    "category": "exploration"
+  },
+  {
+    "year": 1429,
+    "title": "Joan of Arc lifts the siege of Orleans",
+    "region": "France",
+    "lat": 47.9,
+    "lng": 1.9,
+    "description": "A peasant girl claiming divine visions rallies French forces and breaks the English siege, turning the tide of the Hundred Years' War.",
+    "category": "war"
+  },
+  {
+    "year": 1431,
+    "title": "Aztec Triple Alliance formed",
+    "region": "Valley of Mexico",
+    "lat": 19.43,
+    "lng": -99.13,
+    "description": "Tenochtitlan, Texcoco, and Tlacopan join forces to dominate central Mexico and build the Aztec Empire.",
+    "category": "politics"
+  },
+  {
+    "year": 1438,
+    "title": "Pachacuti founds the Inca Empire",
+    "region": "Andes, Peru",
+    "lat": -13.53,
+    "lng": -71.97,
+    "description": "After repelling the Chanca, Pachacuti transforms Cusco into the capital of a vast Andean empire bound by roads and terraces.",
+    "category": "politics"
+  },
+  {
+    "year": 1440,
+    "title": "Johannes Gutenberg develops movable type",
+    "region": "Rhineland",
+    "lat": 49.99,
+    "lng": 8.25,
+    "description": "At Mainz a goldsmith perfects a printing press with reusable metal type, making books cheap and igniting an information revolution.",
+    "category": "science"
+  },
+  {
+    "year": 1450,
+    "title": "Vijayanagara at its height",
+    "region": "South India",
+    "lat": 15.34,
+    "lng": 76.46,
+    "description": "The Hindu empire's capital of Vijayanagara flourishes as one of the world's great cities, its markets heaped with gems and spices.",
+    "category": "culture"
+  },
+  {
+    "year": 1453,
+    "title": "Fall of Constantinople",
+    "region": "Byzantium",
+    "lat": 41.01,
+    "lng": 28.98,
+    "description": "Mehmed II's great bombards breach the Theodosian walls, ending the thousand-year Byzantine Empire and making the city Ottoman.",
+    "category": "war"
+  },
+  {
+    "year": 1464,
+    "title": "Sunni Ali founds the Songhai Empire",
+    "region": "West Africa",
+    "lat": 16.77,
+    "lng": -3.01,
+    "description": "Sunni Ali expands from Gao to seize Timbuktu and Djenne, building the largest empire West Africa had ever seen.",
+    "category": "politics"
+  },
+  {
+    "year": 1469,
+    "title": "Union of Castile and Aragon",
+    "region": "Iberia",
+    "lat": 41.65,
+    "lng": -4.72,
+    "description": "The marriage of Isabella and Ferdinand joins the great Christian kingdoms, forging the Spain that will complete the Reconquista.",
+    "category": "politics"
+  },
+  {
+    "year": 1486,
+    "title": "Botticelli paints the Birth of Venus",
+    "region": "Florence",
+    "lat": 43.77,
+    "lng": 11.26,
+    "description": "Under Medici patronage Sandro Botticelli depicts the goddess rising from the sea, embodying the Renaissance revival of classical beauty.",
+    "category": "culture"
+  },
+  {
+    "year": 1492,
+    "title": "Columbus reaches the Caribbean",
+    "region": "Bahamas",
+    "lat": 24.0,
+    "lng": -74.5,
+    "description": "Sailing for Spain, he makes landfall on an island he names San Salvador.",
+    "category": "exploration"
+  },
+  {
+    "year": 1492,
+    "title": "Fall of Granada ends the Reconquista",
+    "region": "Andalusia",
+    "lat": 37.18,
+    "lng": -3.6,
+    "description": "The surrender of the last Moorish emir completes the Christian reconquest of Spain after nearly eight centuries.",
+    "category": "war"
+  },
+  {
+    "year": 1498,
+    "title": "Vasco da Gama reaches India",
+    "region": "Malabar Coast",
+    "lat": 11.25,
+    "lng": 75.78,
+    "description": "Rounding Africa, the Portuguese captain anchors at Calicut, opening the all-sea spice route that will reshape global trade.",
+    "category": "exploration"
+  },
+  {
+    "year": 1502,
+    "title": "Montezuma II crowned Aztec emperor",
+    "region": "Tenochtitlan",
+    "lat": 19.43,
+    "lng": -99.13,
+    "description": "The warrior-priest Montezuma II ascends the throne of an Aztec Empire at the zenith of its power and tribute.",
+    "category": "politics"
+  },
+  {
+    "year": 1503,
+    "title": "Leonardo begins the Mona Lisa",
+    "region": "Florence",
+    "lat": 43.77,
+    "lng": 11.26,
+    "description": "Leonardo da Vinci starts the enigmatic portrait that becomes the most famous painting of the Italian Renaissance.",
+    "category": "culture"
+  },
+  {
+    "year": 1517,
+    "title": "Luther nails the 95 Theses",
+    "region": "Germany",
+    "lat": 51.87,
+    "lng": 12.65,
+    "description": "In Wittenberg. The Protestant Reformation splits Western Christianity.",
+    "category": "religion"
+  },
+  {
+    "year": 1519,
+    "title": "Cortes enters Tenochtitlan",
+    "region": "Mexico",
+    "lat": 19.43,
+    "lng": -99.13,
+    "description": "Hernan Cortes and his conquistadors march into the Aztec capital as guests of Montezuma, beginning the empire's destruction.",
+    "category": "war"
+  },
+  {
+    "year": 1520,
+    "title": "Suleiman the Magnificent takes the throne",
+    "region": "Ottoman Empire",
+    "lat": 41.01,
+    "lng": 28.98,
+    "description": "Suleiman begins a reign that will carry Ottoman arms to the gates of Vienna and bring the empire to its golden age.",
+    "category": "politics"
+  },
+  {
+    "year": 1521,
+    "title": "Magellan killed in the Philippines",
+    "region": "Philippines",
+    "lat": 10.31,
+    "lng": 123.99,
+    "description": "Ferdinand Magellan dies in battle on Mactan, but his expedition sails on to complete the first circumnavigation of the globe.",
+    "category": "exploration"
+  },
+  {
+    "year": 1526,
+    "title": "Babur wins the Battle of Panipat",
+    "region": "North India",
+    "lat": 29.39,
+    "lng": 76.97,
+    "description": "With artillery and cavalry Babur routs the Delhi Sultanate and founds the Mughal Empire in India.",
+    "category": "war"
+  },
+  {
+    "year": 1529,
+    "title": "Ottoman siege of Vienna",
+    "region": "Austria",
+    "lat": 48.21,
+    "lng": 16.37,
+    "description": "Suleiman's army reaches the walls of Vienna, marking the high tide of Ottoman expansion into central Europe.",
+    "category": "war"
+  },
+  {
+    "year": 1532,
+    "title": "Pizarro captures the Inca Atahualpa",
+    "region": "Andes, Peru",
+    "lat": -7.16,
+    "lng": -78.51,
+    "description": "At Cajamarca a small Spanish force ambushes and seizes the Inca emperor, beginning the conquest of the Andean empire.",
+    "category": "war"
+  },
+  {
+    "year": 1534,
+    "title": "Henry VIII breaks with Rome",
+    "region": "England",
+    "lat": 51.51,
+    "lng": -0.13,
+    "description": "The Act of Supremacy makes the king head of the Church of England, severing the realm from papal authority.",
+    "category": "religion"
+  },
+  {
+    "year": 1543,
+    "title": "Copernicus publishes the heliocentric model",
+    "region": "Prussia / Poland",
+    "lat": 53.7,
+    "lng": 20.51,
+    "description": "On his deathbed Nicolaus Copernicus publishes his treatise placing the Sun, not the Earth, at the center of the heavens.",
+    "category": "science"
+  },
+  {
+    "year": 1545,
+    "title": "Potosi silver mines opened",
+    "region": "Andes, Bolivia",
+    "lat": -19.58,
+    "lng": -65.75,
+    "description": "Spanish miners begin working the mountain of Potosi, whose silver will flood world markets and fund the Habsburg empire.",
+    "category": "economy"
+  },
+  {
+    "year": 1556,
+    "title": "Akbar becomes Mughal emperor",
+    "region": "North India",
+    "lat": 27.18,
+    "lng": 78.02,
+    "description": "The thirteen-year-old Akbar inherits the Mughal throne and will expand it into a vast empire famed for religious tolerance.",
+    "category": "politics"
+  },
+  {
+    "year": 1565,
+    "title": "Battle of Talikota shatters Vijayanagara",
+    "region": "South India",
+    "lat": 16.46,
+    "lng": 76.3,
+    "description": "A coalition of Deccan sultanates crushes the Vijayanagara army and sacks its capital, ending South India's great Hindu empire.",
+    "category": "war"
+  },
+  {
+    "year": 1571,
+    "title": "Battle of Lepanto",
+    "region": "Ionian Sea",
+    "lat": 38.19,
+    "lng": 21.34,
+    "description": "A Holy League fleet destroys the Ottoman navy in one of history's last great galley battles, checking Ottoman sea power.",
+    "category": "war"
+  },
+  {
+    "year": 1582,
+    "title": "Gregorian calendar introduced",
+    "region": "Rome",
+    "lat": 41.9,
+    "lng": 12.46,
+    "description": "Pope Gregory XIII reforms the calendar to correct the drift of the seasons, dropping ten days from October.",
+    "category": "science"
+  },
+  {
+    "year": 1588,
+    "title": "Defeat of the Spanish Armada",
+    "region": "English Channel",
+    "lat": 50.0,
+    "lng": -1.0,
+    "description": "English fireships and Atlantic storms scatter Philip II's great fleet, marking the rise of English sea power.",
+    "category": "war"
+  },
+  {
+    "year": 1600,
+    "title": "English East India Company chartered",
+    "region": "London",
+    "lat": 51.51,
+    "lng": -0.09,
+    "description": "Elizabeth I grants a company of London merchants a monopoly on eastern trade, seeding an empire built on commerce.",
+    "category": "economy"
+  },
+  {
+    "year": 1600,
+    "title": "Battle of Sekigahara",
+    "region": "Japan",
+    "lat": 35.37,
+    "lng": 136.46,
+    "description": "Tokugawa Ieyasu crushed his rivals in a single decisive day, opening the path to a shogunate that would rule Japan for 250 years.",
+    "category": "war"
+  },
+  {
+    "year": 1601,
+    "title": "Kepler Becomes Imperial Mathematician",
+    "region": "Holy Roman Empire",
+    "lat": 48.21,
+    "lng": 16.37,
+    "description": "Johannes Kepler inherited Tycho Brahe's precise observations in Prague, data that would let him unravel the elliptical orbits of the planets.",
+    "category": "science"
+  },
+  {
+    "year": 1603,
+    "title": "Tokugawa Shogunate Established",
+    "region": "Japan",
+    "lat": 35.68,
+    "lng": 139.65,
+    "description": "Ieyasu took the title of shogun and founded Edo as his capital, inaugurating an era of isolation and internal peace.",
+    "category": "politics"
+  },
+  {
+    "year": 1605,
+    "title": "Don Quixote Published",
+    "region": "Spain",
+    "lat": 40.42,
+    "lng": -3.7,
+    "description": "Miguel de Cervantes released the first part of his tale of a deluded knight, often called the first modern novel.",
+    "category": "culture"
+  },
+  {
+    "year": 1607,
+    "title": "Jamestown Founded",
+    "region": "Colonial America",
+    "lat": 37.21,
+    "lng": -76.78,
+    "description": "English settlers established the first permanent English colony in North America on a malarial Virginia riverbank.",
+    "category": "exploration"
+  },
+  {
+    "year": 1609,
+    "title": "Galileo's Telescopic Observations",
+    "region": "Italy",
+    "lat": 45.41,
+    "lng": 11.88,
+    "description": "Galileo turned an improved telescope to the night sky from Padua, soon discovering Jupiter's moons and lunar mountains.",
+    "category": "science"
+  },
+  {
+    "year": 1610,
+    "title": "Assassination of Henry IV",
+    "region": "France",
+    "lat": 48.86,
+    "lng": 2.35,
+    "description": "A Catholic fanatic stabbed the tolerant French king in his carriage on a Paris street, ending the reign that had healed the wars of religion.",
+    "category": "politics"
+  },
+  {
+    "year": 1613,
+    "title": "Romanov Dynasty Begins",
+    "region": "Russia",
+    "lat": 55.75,
+    "lng": 37.62,
+    "description": "Sixteen-year-old Michael Romanov was elected tsar, ending the chaotic Time of Troubles and founding a dynasty that lasted three centuries.",
+    "category": "politics"
+  },
+  {
+    "year": 1618,
+    "title": "Thirty Years' War Erupts",
+    "region": "Bohemia",
+    "lat": 50.09,
+    "lng": 14.4,
+    "description": "Protestant nobles threw imperial envoys from a Prague castle window, igniting a continental war that devastated central Europe.",
+    "category": "war"
+  },
+  {
+    "year": 1620,
+    "title": "Mayflower Lands at Plymouth",
+    "region": "Colonial America",
+    "lat": 41.96,
+    "lng": -70.66,
+    "description": "English Puritan separatists signed a civil compact aboard ship before founding their colony on the Massachusetts coast.",
+    "category": "exploration"
+  },
+  {
+    "year": 1627,
+    "title": "Reign of Shah Jahan Begins",
+    "region": "Mughal India",
+    "lat": 28.66,
+    "lng": 77.23,
+    "description": "Shah Jahan ascended the Mughal throne, ushering in the empire's golden age of architecture and the eventual Taj Mahal.",
+    "category": "politics"
+  },
+  {
+    "year": 1632,
+    "title": "Taj Mahal Construction Begins",
+    "region": "Mughal India",
+    "lat": 27.17,
+    "lng": 78.04,
+    "description": "Shah Jahan ordered a white marble mausoleum for his beloved wife Mumtaz Mahal on the banks of the Yamuna at Agra.",
+    "category": "culture"
+  },
+  {
+    "year": 1633,
+    "title": "Galileo Condemned by the Inquisition",
+    "region": "Italy",
+    "lat": 41.9,
+    "lng": 12.46,
+    "description": "The Roman Inquisition forced Galileo to recant his defense of a sun-centered cosmos and sentenced him to house arrest.",
+    "category": "religion"
+  },
+  {
+    "year": 1636,
+    "title": "Qing Dynasty Proclaimed",
+    "region": "Manchuria",
+    "lat": 41.8,
+    "lng": 123.43,
+    "description": "Hong Taiji renamed his Manchu state the Qing at Mukden, laying claim to the Mandate of Heaven over China.",
+    "category": "politics"
+  },
+  {
+    "year": 1637,
+    "title": "Descartes Publishes the Discourse on Method",
+    "region": "Dutch Republic",
+    "lat": 52.01,
+    "lng": 4.36,
+    "description": "Rene Descartes argued for systematic doubt and declared 'I think, therefore I am,' founding modern rationalist philosophy.",
+    "category": "science"
+  },
+  {
+    "year": 1644,
+    "title": "Fall of the Ming Dynasty",
+    "region": "China",
+    "lat": 39.9,
+    "lng": 116.4,
+    "description": "Rebel forces seized Beijing and the last Ming emperor hanged himself, after which the Manchus marched in to establish Qing rule.",
+    "category": "war"
+  },
+  {
+    "year": 1648,
+    "title": "Peace of Westphalia",
+    "region": "Holy Roman Empire",
+    "lat": 51.96,
+    "lng": 7.63,
+    "description": "Treaties signed at Munster and Osnabruck ended the Thirty Years' War and enshrined the principle of sovereign states.",
+    "category": "politics"
+  },
+  {
+    "year": 1649,
+    "title": "Execution of Charles I",
+    "region": "England",
+    "lat": 51.5,
+    "lng": -0.13,
+    "description": "The English Parliament beheaded its king outside the Banqueting House, a revolutionary act that briefly abolished the monarchy.",
+    "category": "politics"
+  },
+  {
+    "year": 1652,
+    "title": "Dutch Settle the Cape of Good Hope",
+    "region": "Southern Africa",
+    "lat": -33.92,
+    "lng": 18.42,
+    "description": "Jan van Riebeeck established a supply station for the Dutch East India Company, seeding European settlement in South Africa.",
+    "category": "exploration"
+  },
+  {
+    "year": 1658,
+    "title": "Aurangzeb Seizes the Mughal Throne",
+    "region": "Mughal India",
+    "lat": 28.66,
+    "lng": 77.23,
+    "description": "After imprisoning his father and killing his brothers, the austere Aurangzeb began a reign that expanded and then overstretched the empire.",
+    "category": "politics"
+  },
+  {
+    "year": 1665,
+    "title": "Great Plague of London",
+    "region": "England",
+    "lat": 51.51,
+    "lng": -0.13,
+    "description": "Bubonic plague swept through London's crowded streets, killing roughly a quarter of the city's population in a single year.",
+    "category": "disaster"
+  },
+  {
+    "year": 1668,
+    "title": "Ashanti Empire Founded",
+    "region": "West Africa",
+    "lat": 6.69,
+    "lng": -1.62,
+    "description": "Osei Tutu united the Akan clans around the Golden Stool at Kumasi, forging a powerful empire in the forests of present-day Ghana.",
+    "category": "politics"
+  },
+  {
+    "year": 1683,
+    "title": "Siege of Vienna Lifted",
+    "region": "Austria",
+    "lat": 48.21,
+    "lng": 16.37,
+    "description": "A Polish-led Christian army routed the Ottoman host at the gates of Vienna, marking the high tide of Turkish expansion in Europe.",
+    "category": "war"
+  },
+  {
+    "year": 1687,
+    "title": "Newton's Principia Published",
+    "region": "England",
+    "lat": 51.51,
+    "lng": -0.12,
+    "description": "Isaac Newton set out his laws of motion and universal gravitation, unifying the heavens and earth under a single mathematics.",
+    "category": "science"
+  },
+  {
+    "year": 1688,
+    "title": "Glorious Revolution",
+    "region": "England",
+    "lat": 51.51,
+    "lng": -0.13,
+    "description": "Parliament deposed James II and invited William and Mary to rule, establishing constitutional limits on the English crown.",
+    "category": "politics"
+  },
+  {
+    "year": 1699,
+    "title": "Treaty of Karlowitz",
+    "region": "Ottoman Empire",
+    "lat": 45.2,
+    "lng": 19.93,
+    "description": "The Ottomans ceded Hungary and other lands to the Habsburgs, the empire's first great territorial retreat in Europe.",
+    "category": "politics"
+  },
+  {
+    "year": 1707,
+    "title": "Act of Union Creates Great Britain",
+    "region": "Britain",
+    "lat": 55.95,
+    "lng": -3.19,
+    "description": "The parliaments of England and Scotland merged into a single Kingdom of Great Britain under one crown and legislature.",
+    "category": "politics"
+  },
+  {
+    "year": 1709,
+    "title": "Hotak Revolt Topples Safavid Rule in the East",
+    "region": "Persia",
+    "lat": 31.63,
+    "lng": 65.72,
+    "description": "Mirwais Hotak led an Afghan uprising at Kandahar against Safavid overlords, beginning the unraveling of Persia's Safavid dynasty.",
+    "category": "war"
+  },
+  {
+    "year": 1722,
+    "title": "Fall of Isfahan",
+    "region": "Persia",
+    "lat": 32.65,
+    "lng": 51.67,
+    "description": "Afghan besiegers starved out the Safavid capital, effectively ending a dynasty that had ruled Persia for over two centuries.",
+    "category": "war"
+  },
+  {
+    "year": 1725,
+    "title": "Death of Peter the Great",
+    "region": "Russia",
+    "lat": 59.94,
+    "lng": 30.31,
+    "description": "The reforming tsar who built St. Petersburg and westernized Russia died, leaving an empire transformed into a European power.",
+    "category": "politics"
+  },
+  {
+    "year": 1735,
+    "title": "Linnaeus Publishes Systema Naturae",
+    "region": "Dutch Republic",
+    "lat": 52.16,
+    "lng": 4.49,
+    "description": "Carl Linnaeus introduced his hierarchical system for classifying all living things, the foundation of modern biological taxonomy.",
+    "category": "science"
+  },
+  {
+    "year": 1739,
+    "title": "Nader Shah Sacks Delhi",
+    "region": "Mughal India",
+    "lat": 28.66,
+    "lng": 77.23,
+    "description": "The Persian conqueror plundered the Mughal capital and carried off the Peacock Throne and the Koh-i-Noor diamond.",
+    "category": "war"
+  },
+  {
+    "year": 1748,
+    "title": "Montesquieu's Spirit of the Laws",
+    "region": "France",
+    "lat": 44.84,
+    "lng": -0.58,
+    "description": "Montesquieu argued for the separation of governmental powers, a cornerstone idea for later constitutional democracies.",
+    "category": "culture"
+  },
+  {
+    "year": 1755,
+    "title": "Lisbon Earthquake",
+    "region": "Portugal",
+    "lat": 38.72,
+    "lng": -9.14,
+    "description": "A massive quake, fire, and tsunami destroyed Lisbon on All Saints' Day, shaking Enlightenment faith in a benevolent order.",
+    "category": "disaster"
+  },
+  {
+    "year": 1757,
+    "title": "Battle of Plassey",
+    "region": "Bengal",
+    "lat": 23.8,
+    "lng": 88.25,
+    "description": "Robert Clive's East India Company forces defeated the Nawab of Bengal through bribery and battle, beginning British dominion in India.",
+    "category": "war"
+  },
+  {
+    "year": 1762,
+    "title": "Rousseau's The Social Contract",
+    "region": "Switzerland",
+    "lat": 46.52,
+    "lng": 6.63,
+    "description": "Jean-Jacques Rousseau opened with 'Man is born free, and everywhere he is in chains,' shaping revolutionary ideas of popular sovereignty.",
+    "category": "culture"
+  },
+  {
+    "year": 1769,
+    "title": "Watt Patents the Improved Steam Engine",
+    "region": "Scotland",
+    "lat": 55.86,
+    "lng": -4.25,
+    "description": "James Watt patented a separate condenser that made steam power efficient, a key spark of the Industrial Revolution.",
+    "category": "science"
+  },
+  {
+    "year": 1776,
+    "title": "US Declaration of Independence",
+    "region": "United States",
+    "lat": 39.95,
+    "lng": -75.15,
+    "description": "Philadelphia. Thirteen colonies declare separation from Britain.",
+    "category": "politics"
+  },
+  {
+    "year": 1776,
+    "title": "Adam Smith's Wealth of Nations",
+    "region": "Scotland",
+    "lat": 55.95,
+    "lng": -3.19,
+    "description": "Adam Smith described how self-interest and free markets guide prosperity, founding the discipline of modern economics.",
+    "category": "economy"
+  },
+  {
+    "year": 1781,
+    "title": "Siege of Yorktown",
+    "region": "United States",
+    "lat": 37.24,
+    "lng": -76.51,
+    "description": "Washington's army and a French fleet trapped Cornwallis in Virginia, forcing the surrender that effectively won American independence.",
+    "category": "war"
+  },
+  {
+    "year": 1789,
+    "title": "Storming of the Bastille",
+    "region": "France",
+    "lat": 48.85,
+    "lng": 2.37,
+    "description": "The French Revolution begins; the old regime will not survive the decade.",
+    "category": "politics"
+  },
+  {
+    "year": 1791,
+    "title": "Haitian Revolution Begins",
+    "region": "Haiti",
+    "lat": 19.76,
+    "lng": -72.2,
+    "description": "Enslaved Africans rose up across the plantations of Saint-Domingue, launching the only successful large-scale slave revolt in history.",
+    "category": "war"
+  },
+  {
+    "year": 1793,
+    "title": "Execution of Louis XVI",
+    "region": "France",
+    "lat": 48.87,
+    "lng": 2.32,
+    "description": "The French Revolution sent its king to the guillotine before a Paris crowd, shocking the monarchies of Europe.",
+    "category": "politics"
+  },
+  {
+    "year": 1798,
+    "title": "Jenner Publishes Smallpox Vaccination",
+    "region": "England",
+    "lat": 51.69,
+    "lng": -2.39,
+    "description": "Edward Jenner demonstrated that cowpox inoculation protected against deadly smallpox, inaugurating the science of vaccination.",
+    "category": "science"
+  },
+  {
+    "year": 1804,
+    "title": "Haitian Independence Proclaimed",
+    "region": "Haiti",
+    "lat": 19.68,
+    "lng": -72.25,
+    "description": "Jean-Jacques Dessalines declared Haiti a free nation, the first independent Black republic born of a slave revolution.",
+    "category": "politics"
+  },
+  {
+    "year": 1804,
+    "title": "Napoleon Crowned Emperor",
+    "region": "France",
+    "lat": 48.85,
+    "lng": 2.35,
+    "description": "Napoleon Bonaparte placed the crown on his own head at Notre-Dame, transforming the revolutionary republic into an empire.",
+    "category": "politics"
+  },
+  {
+    "year": 1804,
+    "title": "Sokoto Caliphate Jihad Begins",
+    "region": "West Africa",
+    "lat": 13.06,
+    "lng": 5.24,
+    "description": "The scholar Usman dan Fodio launched a religious revolution across the Hausa lands, founding a vast Islamic caliphate.",
+    "category": "religion"
+  },
+  {
+    "year": 1807,
+    "title": "Britain Abolishes the Slave Trade",
+    "region": "Britain",
+    "lat": 51.5,
+    "lng": -0.13,
+    "description": "Parliament outlawed the transatlantic slave trade in British ships, a major blow to the Atlantic commerce in human beings.",
+    "category": "economy"
+  },
+  {
+    "year": 1810,
+    "title": "Mexican War of Independence Begins",
+    "region": "Mexico",
+    "lat": 21.01,
+    "lng": -101.26,
+    "description": "The priest Miguel Hidalgo rang his church bell at Dolores and called the people to rise against Spanish rule.",
+    "category": "war"
+  },
+  {
+    "year": 1819,
+    "title": "Bolivar's Victory at Boyaca",
+    "region": "Colombia",
+    "lat": 5.45,
+    "lng": -73.43,
+    "description": "Simon Bolivar routed the Spanish army near a bridge in the Andes, securing the liberation of New Granada.",
+    "category": "war"
+  },
+  {
+    "year": 1824,
+    "title": "Battle of Ayacucho",
+    "region": "Peru",
+    "lat": -13.16,
+    "lng": -74.22,
+    "description": "Patriot forces under Sucre shattered the last royalist army in South America, sealing independence across the continent.",
+    "category": "war"
+  },
+  {
+    "year": 1826,
+    "title": "Auspicious Incident Destroys the Janissaries",
+    "region": "Ottoman Empire",
+    "lat": 41.01,
+    "lng": 28.98,
+    "description": "Sultan Mahmud II violently abolished the rebellious Janissary corps, clearing the way for Ottoman military modernization.",
+    "category": "war"
+  },
+  {
+    "year": 1836,
+    "title": "Great Trek of the Boers",
+    "region": "Southern Africa",
+    "lat": -28.75,
+    "lng": 24.76,
+    "description": "Dutch-descended farmers migrated inland from the British Cape in ox wagons, founding new republics in the African interior.",
+    "category": "exploration"
+  },
+  {
+    "year": 1839,
+    "title": "First Opium War Begins",
+    "region": "China",
+    "lat": 23.13,
+    "lng": 113.26,
+    "description": "China's seizure of British opium at Canton triggered a war that would force open its ports and cede Hong Kong.",
+    "category": "war"
+  },
+  {
+    "year": 1848,
+    "title": "Revolutions Sweep Europe",
+    "region": "Europe",
+    "lat": 48.86,
+    "lng": 2.35,
+    "description": "A wave of liberal and nationalist uprisings erupted across the continent, shaking monarchies from Paris to Vienna to Berlin.",
+    "category": "politics"
+  },
+  {
+    "year": 1851,
+    "title": "Great Exhibition opens in the Crystal Palace",
+    "region": "England",
+    "lat": 51.5,
+    "lng": -0.17,
+    "description": "London's glass-and-iron Crystal Palace drew millions to a global showcase of industrial machinery and manufactured wonders.",
+    "category": "economy"
+  },
+  {
+    "year": 1853,
+    "title": "Perry's black ships reach Edo Bay",
+    "region": "Japan",
+    "lat": 35.3,
+    "lng": 139.65,
+    "description": "Commodore Perry's steam-powered squadron anchored off Uraga and forced Japan to end two centuries of isolation.",
+    "category": "politics"
+  },
+  {
+    "year": 1857,
+    "title": "Indian Rebellion against the East India Company",
+    "region": "India",
+    "lat": 28.66,
+    "lng": 77.23,
+    "description": "A mutiny of sepoys at Meerut spread into a vast uprising that would end Company rule and bring India under the Crown.",
+    "category": "war"
+  },
+  {
+    "year": 1859,
+    "title": "Darwin publishes On the Origin of Species",
+    "region": "England",
+    "lat": 51.33,
+    "lng": 0.05,
+    "description": "From Down House, Darwin laid out natural selection and reshaped humanity's understanding of life itself.",
+    "category": "science"
+  },
+  {
+    "year": 1861,
+    "title": "Emancipation of the serfs in Russia",
+    "region": "Russia",
+    "lat": 55.75,
+    "lng": 37.62,
+    "description": "Tsar Alexander II signed the edict freeing over twenty million serfs from bondage to the land.",
+    "category": "politics"
+  },
+  {
+    "year": 1863,
+    "title": "Emancipation Proclamation and the American Civil War",
+    "region": "United States",
+    "lat": 38.9,
+    "lng": -77.04,
+    "description": "Lincoln declared enslaved people in rebel states to be free, recasting the war as a struggle for abolition.",
+    "category": "war"
+  },
+  {
+    "year": 1867,
+    "title": "Marx publishes Das Kapital",
+    "region": "Germany",
+    "lat": 50.94,
+    "lng": 6.96,
+    "description": "Karl Marx's sweeping critique of capitalist production gave the industrial working class a new political language.",
+    "category": "culture"
+  },
+  {
+    "year": 1869,
+    "title": "Suez Canal opens between seas",
+    "region": "Egypt",
+    "lat": 30.59,
+    "lng": 32.27,
+    "description": "The canal joining the Mediterranean and Red Sea cut thousands of miles from the route between Europe and Asia.",
+    "category": "economy"
+  },
+  {
+    "year": 1869,
+    "title": "Transcontinental Railroad completed at Promontory",
+    "region": "United States",
+    "lat": 41.62,
+    "lng": -112.55,
+    "description": "A golden spike driven in Utah linked America's coasts by rail and opened the continental interior.",
+    "category": "exploration"
+  },
+  {
+    "year": 1871,
+    "title": "German unification proclaimed at Versailles",
+    "region": "Germany",
+    "lat": 48.8,
+    "lng": 2.12,
+    "description": "Bismarck's princes crowned Wilhelm I emperor in the Hall of Mirrors, forging a unified German Reich.",
+    "category": "politics"
+  },
+  {
+    "year": 1871,
+    "title": "Italian unification completed with Rome as capital",
+    "region": "Italy",
+    "lat": 41.9,
+    "lng": 12.5,
+    "description": "With the capital moved to a newly seized Rome, the long Risorgimento finally bound the peninsula into one kingdom.",
+    "category": "politics"
+  },
+  {
+    "year": 1876,
+    "title": "Bell patents the telephone",
+    "region": "United States",
+    "lat": 42.36,
+    "lng": -71.06,
+    "description": "Alexander Graham Bell transmitted speech over a wire in Boston, inaugurating instant voice communication.",
+    "category": "science"
+  },
+  {
+    "year": 1885,
+    "title": "Berlin Conference carves up Africa",
+    "region": "Germany",
+    "lat": 52.52,
+    "lng": 13.4,
+    "description": "European powers met in Berlin to partition the African continent among themselves without a single African present.",
+    "category": "politics"
+  },
+  {
+    "year": 1889,
+    "title": "Eiffel Tower crowns the Paris Exposition",
+    "region": "France",
+    "lat": 48.86,
+    "lng": 2.29,
+    "description": "Gustave Eiffel's wrought-iron tower rose over the World's Fair as the tallest structure on Earth.",
+    "category": "culture"
+  },
+  {
+    "year": 1896,
+    "title": "Ethiopia routs Italy at Adwa",
+    "region": "Ethiopia",
+    "lat": 14.17,
+    "lng": 38.9,
+    "description": "Emperor Menelik II's army shattered an invading Italian force, securing Ethiopia's independence against colonization.",
+    "category": "war"
+  },
+  {
+    "year": 1898,
+    "title": "Curies isolate radium and polonium",
+    "region": "France",
+    "lat": 48.84,
+    "lng": 2.34,
+    "description": "Marie and Pierre Curie extracted new radioactive elements from pitchblende in a cramped Paris shed.",
+    "category": "science"
+  },
+  {
+    "year": 1901,
+    "title": "Marconi sends signal across the Atlantic",
+    "region": "Canada",
+    "lat": 47.57,
+    "lng": -52.68,
+    "description": "Guglielmo Marconi received a faint wireless signal in Newfoundland, proving radio could span oceans.",
+    "category": "science"
+  },
+  {
+    "year": 1903,
+    "title": "Wright brothers achieve powered flight",
+    "region": "United States",
+    "lat": 36.02,
+    "lng": -75.67,
+    "description": "At Kitty Hawk the Wright Flyer lifted off the dunes, making humanity's first sustained powered flight.",
+    "category": "exploration"
+  },
+  {
+    "year": 1905,
+    "title": "Einstein's miracle year of physics",
+    "region": "Switzerland",
+    "lat": 46.95,
+    "lng": 7.44,
+    "description": "A Bern patent clerk published relativity and the quantum of light, overturning the foundations of physics.",
+    "category": "science"
+  },
+  {
+    "year": 1910,
+    "title": "Mexican Revolution erupts against Diaz",
+    "region": "Mexico",
+    "lat": 19.43,
+    "lng": -99.13,
+    "description": "Madero's call to arms ignited a decade of revolution that toppled a long dictatorship and remade Mexico.",
+    "category": "war"
+  },
+  {
+    "year": 1911,
+    "title": "Amundsen reaches the South Pole",
+    "region": "Antarctica",
+    "lat": -90.0,
+    "lng": 0.0,
+    "description": "Roald Amundsen's Norwegian party planted a flag at the geographic South Pole, winning the polar race.",
+    "category": "exploration"
+  },
+  {
+    "year": 1911,
+    "title": "Xinhai Revolution ends China's empire",
+    "region": "China",
+    "lat": 30.58,
+    "lng": 114.3,
+    "description": "An uprising at Wuchang swept away the Qing dynasty and founded the Republic of China.",
+    "category": "politics"
+  },
+  {
+    "year": 1912,
+    "title": "Titanic sinks on her maiden voyage",
+    "region": "North Atlantic",
+    "lat": 41.73,
+    "lng": -49.95,
+    "description": "The great liner struck an iceberg and foundered, carrying more than fifteen hundred souls into the cold Atlantic.",
+    "category": "disaster"
+  },
+  {
+    "year": 1914,
+    "title": "Assassination at Sarajevo sparks the Great War",
+    "region": "Bosnia",
+    "lat": 43.86,
+    "lng": 18.42,
+    "description": "The killing of Archduke Franz Ferdinand set the alliances of Europe tumbling into the First World War.",
+    "category": "war"
+  },
+  {
+    "year": 1917,
+    "title": "Bolshevik Revolution seizes Petrograd",
+    "region": "Russia",
+    "lat": 59.94,
+    "lng": 30.31,
+    "description": "Lenin's Bolsheviks stormed the Winter Palace and launched the world's first communist state.",
+    "category": "politics"
+  },
+  {
+    "year": 1918,
+    "title": "Spanish flu pandemic sweeps the globe",
+    "region": "Global",
+    "lat": 39.11,
+    "lng": -94.63,
+    "description": "An influenza strain tore across the war-weary world, killing tens of millions on every continent.",
+    "category": "disaster"
+  },
+  {
+    "year": 1919,
+    "title": "Treaty of Versailles redraws the world",
+    "region": "France",
+    "lat": 48.8,
+    "lng": 2.12,
+    "description": "The victors imposed terms on Germany and reshaped empires, sowing grievances that would ripen into another war.",
+    "category": "politics"
+  },
+  {
+    "year": 1922,
+    "title": "Mussolini's March on Rome",
+    "region": "Italy",
+    "lat": 41.9,
+    "lng": 12.5,
+    "description": "Fascist blackshirts marched on the capital and brought Mussolini to power, the first fascist regime in Europe.",
+    "category": "politics"
+  },
+  {
+    "year": 1929,
+    "title": "Wall Street Crash begins the Great Depression",
+    "region": "United States",
+    "lat": 40.71,
+    "lng": -74.01,
+    "description": "The stock market collapse in New York plunged the industrial world into a decade of mass unemployment.",
+    "category": "economy"
+  },
+  {
+    "year": 1930,
+    "title": "Gandhi's Salt March defies British rule",
+    "region": "India",
+    "lat": 21.0,
+    "lng": 72.66,
+    "description": "Gandhi walked to the sea at Dandi to make salt in defiance of colonial law, galvanizing mass nonviolent resistance.",
+    "category": "politics"
+  },
+  {
+    "year": 1933,
+    "title": "Hitler seizes power in Germany",
+    "region": "Germany",
+    "lat": 52.52,
+    "lng": 13.4,
+    "description": "Appointed chancellor, Adolf Hitler swiftly dismantled the Weimar Republic and built the Nazi dictatorship.",
+    "category": "politics"
+  },
+  {
+    "year": 1939,
+    "title": "Germany invades Poland, igniting World War II",
+    "region": "Poland",
+    "lat": 52.23,
+    "lng": 21.01,
+    "description": "The Wehrmacht's blitzkrieg across Poland drew Britain and France into a second global war.",
+    "category": "war"
+  },
+  {
+    "year": 1945,
+    "title": "Hiroshima and Nagasaki",
+    "region": "Japan",
+    "lat": 34.39,
+    "lng": 132.45,
+    "description": "First and only wartime uses of nuclear weapons. Japan surrenders days later.",
+    "category": "war"
+  },
+  {
+    "year": 1945,
+    "title": "Atomic bombings of Hiroshima and Nagasaki",
+    "region": "Japan",
+    "lat": 34.4,
+    "lng": 132.46,
+    "description": "A single uranium bomb destroyed Hiroshima, ushering in the nuclear age and hastening Japan's surrender.",
+    "category": "war"
+  },
+  {
+    "year": 1947,
+    "title": "Partition of India and Pakistan",
+    "region": "South Asia",
+    "lat": 31.55,
+    "lng": 74.34,
+    "description": "British India split into two nations amid independence, triggering mass migration and communal bloodshed.",
+    "category": "politics"
+  },
+  {
+    "year": 1948,
+    "title": "Apartheid becomes law in South Africa",
+    "region": "South Africa",
+    "lat": -25.75,
+    "lng": 28.19,
+    "description": "The National Party institutionalized racial segregation, binding South Africa in decades of apartheid rule.",
+    "category": "politics"
+  },
+  {
+    "year": 1949,
+    "title": "Mao proclaims the People's Republic of China",
+    "region": "China",
+    "lat": 39.91,
+    "lng": 116.39,
+    "description": "From Tiananmen, Mao Zedong declared the communist victory and the founding of the People's Republic.",
+    "category": "politics"
+  },
+  {
+    "year": 1953,
+    "title": "Watson and Crick reveal the DNA double helix",
+    "region": "England",
+    "lat": 52.2,
+    "lng": 0.12,
+    "description": "At Cambridge the structure of DNA was unveiled, exposing the molecular code of heredity.",
+    "category": "science"
+  },
+  {
+    "year": 1957,
+    "title": "Ghana wins independence from Britain",
+    "region": "Ghana",
+    "lat": 5.56,
+    "lng": -0.2,
+    "description": "Kwame Nkrumah led Ghana to become the first sub-Saharan colony to break free, lighting Africa's decolonization.",
+    "category": "politics"
+  },
+  {
+    "year": 1957,
+    "title": "Sputnik opens the Space Age",
+    "region": "Kazakhstan",
+    "lat": 45.92,
+    "lng": 63.34,
+    "description": "The Soviet Union launched the first artificial satellite from Baikonur, startling the world and starting the space race.",
+    "category": "science"
+  },
+  {
+    "year": 1961,
+    "title": "Gagarin becomes the first human in space",
+    "region": "Kazakhstan",
+    "lat": 45.92,
+    "lng": 63.34,
+    "description": "Yuri Gagarin orbited the Earth aboard Vostok 1, the first person to leave the planet and return.",
+    "category": "exploration"
+  },
+  {
+    "year": 1962,
+    "title": "Cuban Missile Crisis brings the world to the brink",
+    "region": "Cuba",
+    "lat": 23.0,
+    "lng": -82.0,
+    "description": "The discovery of Soviet missiles in Cuba pushed the superpowers to the edge of nuclear war before a tense standoff.",
+    "category": "war"
+  },
+  {
+    "year": 1969,
+    "title": "Apollo 11 lunar landing",
+    "region": "Earth",
+    "lat": 28.57,
+    "lng": -80.65,
+    "description": "Launched from Kennedy Space Center. Armstrong and Aldrin walk the Moon.",
+    "category": "politics"
+  },
+  {
+    "year": 1969,
+    "title": "Apollo 11 lands humans on the Moon",
+    "region": "Moon",
+    "lat": 0.67,
+    "lng": 23.47,
+    "description": "Armstrong and Aldrin stepped onto the Sea of Tranquility, the first humans to walk on another world.",
+    "category": "exploration"
+  },
+  {
+    "year": 1973,
+    "title": "OPEC oil embargo shocks the global economy",
+    "region": "Saudi Arabia",
+    "lat": 24.71,
+    "lng": 46.68,
+    "description": "Arab oil producers cut exports to the West, quadrupling prices and exposing the world's dependence on petroleum.",
+    "category": "economy"
+  },
+  {
+    "year": 1979,
+    "title": "Iranian Revolution establishes an Islamic Republic",
+    "region": "Iran",
+    "lat": 35.69,
+    "lng": 51.39,
+    "description": "Ayatollah Khomeini's return toppled the Shah and founded a theocratic state in Tehran.",
+    "category": "religion"
+  },
+  {
+    "year": 1989,
+    "title": "Fall of the Berlin Wall",
+    "region": "Germany",
+    "lat": 52.52,
+    "lng": 13.38,
+    "description": "Crowds breached the Berlin Wall, collapsing the Iron Curtain and ending the division of Europe.",
+    "category": "politics"
+  },
+  {
+    "year": 1991,
+    "title": "Soviet Union dissolves",
+    "region": "Russia",
+    "lat": 55.75,
+    "lng": 37.62,
+    "description": "The hammer-and-sickle came down over the Kremlin as fifteen republics emerged from the fallen USSR.",
+    "category": "politics"
+  },
+  {
+    "year": 1991,
+    "title": "World Wide Web opened to the public",
+    "region": "Switzerland",
+    "lat": 46.23,
+    "lng": 6.05,
+    "description": "At CERN, Tim Berners-Lee released the Web to the world, launching the age of the internet.",
+    "category": "science"
+  },
+  {
+    "year": 1994,
+    "title": "Mandela elected in South Africa's first free vote",
+    "region": "South Africa",
+    "lat": -33.92,
+    "lng": 18.42,
+    "description": "Nelson Mandela won the presidency in all-race elections, ending apartheid and inaugurating a democratic South Africa.",
+    "category": "politics"
+  },
+  {
+    "year": 2004,
+    "title": "Indian Ocean tsunami devastates coastlines",
+    "region": "Indonesia",
+    "lat": 3.32,
+    "lng": 95.85,
+    "description": "A massive undersea quake off Sumatra unleashed waves that killed over two hundred thousand across a dozen nations.",
+    "category": "disaster"
+  },
+  {
+    "year": 2020,
+    "title": "COVID-19 declared a global pandemic",
+    "region": "Global",
+    "lat": 30.59,
+    "lng": 114.31,
+    "description": "A novel coronavirus first identified in Wuhan swept the planet, shutting down economies and societies worldwide.",
+    "category": "disaster"
+  },
+  {
+    "year": 2023,
+    "title": "Generative AI reaches the mainstream",
+    "region": "United States",
+    "lat": 37.77,
+    "lng": -122.42,
+    "description": "Large language models like ChatGPT crossed into everyday use, marking a new era of artificial intelligence.",
+    "category": "science"
+  }
 ]

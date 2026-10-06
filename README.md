@@ -30,7 +30,9 @@ Public URL: `atlas.bormanfamily.com`.
 Append entries to `data/events.json`. Shape:
 
 ```json
-{ "year": -336, "title": "Alexander ascends the Macedonian throne", "region": "Macedon", "lat": 40.95, "lng": 22.52, "description": "At twenty..." }
+{ "year": -336, "title": "Alexander ascends the Macedonian throne", "region": "Macedon", "lat": 40.95, "lng": 22.52, "description": "At twenty...", "category": "politics", "source": "https://..." }
 ```
 
-Negative years are BCE. One-year resolution. The timeline shows any event within ±100 years of the slider.
+`category` is one of: `politics`, `war`, `religion`, `science`, `culture`, `exploration`, `economy`, `disaster` (drives marker colour + the legend filter). `source` is optional (shows a link in the popup). Negative years are BCE. One-year resolution. The timeline window is adjustable (±50 to ±500 years) via the control next to the slider.
+
+See [`VISION.md`](VISION.md) for where this is headed.
