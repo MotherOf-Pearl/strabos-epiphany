@@ -42,11 +42,13 @@ const server = http.createServer((req, res) => {
 
   if (pathname === '/') pathname = '/index.html';
 
-  if (pathname === '/api/events') {
-    fs.readFile(path.join(ROOT, 'data', 'events.json'), (err, data) => {
+  const apiMatch = pathname.match(/^\/api\/(events|religions|empires)$/);
+  if (apiMatch) {
+    const file = `${apiMatch[1]}.json`;
+    fs.readFile(path.join(ROOT, 'data', file), (err, data) => {
       if (err) {
         res.writeHead(500);
-        res.end('[]');
+        res.end(file === 'events.json' ? '[]' : '{"type":"FeatureCollection","features":[]}');
         return;
       }
       res.writeHead(200, { 'Content-Type': 'application/json' });

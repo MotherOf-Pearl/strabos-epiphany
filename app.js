@@ -15,6 +15,11 @@ const DEFAULT_COLOR = '#d4a574';
 
 let WINDOW_YEARS = 100;
 const activeCategories = new Set(Object.keys(CATEGORIES));
+const activeReligions  = new Set();  // populated after load
+const activeEmpires    = new Set();
+
+let RELIGIONS = { type: 'FeatureCollection', features: [] };
+let EMPIRES   = { type: 'FeatureCollection', features: [] };
 
 const map = new maplibregl.Map({
   container: 'map',
@@ -46,6 +51,28 @@ function formatYear(y) {
 
 function colorFor(cat) {
   return (CATEGORIES[cat] && CATEGORIES[cat].color) || DEFAULT_COLOR;
+}
+
+// Build the MapLibre filter for a layer given active names and current year.
+function layerFilter(activeSet, year) {
+  if (activeSet.size === 0) return ['==', 1, 0]; // always false
+  return [
+    'all',
+    ['<=', ['get', 'start_year'], year],
+    ['>=', ['get', 'end_year'], year],
+    ['in', ['get', 'name'], ['literal', [...activeSet]]],
+  ];
+}
+
+function applyLayerFilters(year) {
+  if (map.getLayer('religions-fill')) {
+    map.setFilter('religions-fill', layerFilter(activeReligions, year));
+    map.setFilter('religions-outline', layerFilter(activeReligions, year));
+  }
+  if (map.getLayer('empires-fill')) {
+    map.setFilter('empires-fill', layerFilter(activeEmpires, year));
+    map.setFilter('empires-outline', layerFilter(activeEmpires, year));
+  }
 }
 
 function render(year) {
@@ -88,10 +115,12 @@ function render(year) {
 
   document.getElementById('count-display').textContent =
     `${visible.length} event${visible.length === 1 ? '' : 's'}`;
+
+  applyLayerFilters(year);
 }
 
-function buildLegend() {
-  const legend = document.getElementById('legend');
+function buildEventsLegend() {
+  const legend = document.getElementById('legend-events');
   for (const [key, { label, color }] of Object.entries(CATEGORIES)) {
     const row = document.createElement('div');
     row.className = 'legend-row active';
@@ -105,12 +134,68 @@ function buildLegend() {
   }
 }
 
+// Build a legend section for a polygon layer. Groups features by `name` so
+// each religion/empire appears as a single row even if it has many polygons.
+function buildLayerLegend(containerId, geojson, activeSet) {
+  const container = document.getElementById(containerId);
+  const seen = new Map();  // name -> color
+  for (const f of geojson.features) {
+    if (!seen.has(f.properties.name)) seen.set(f.properties.name, f.properties.color);
+  }
+  for (const [name, color] of seen) {
+    activeSet.add(name);
+    const row = document.createElement('div');
+    row.className = 'legend-row active';
+    row.innerHTML = `<span class="legend-swatch" style="background:${color}"></span>${name}`;
+    row.addEventListener('click', () => {
+      if (activeSet.has(name)) { activeSet.delete(name); row.classList.remove('active'); }
+      else { activeSet.add(name); row.classList.add('active'); }
+      applyLayerFilters(parseInt(document.getElementById('year-slider').value, 10));
+    });
+    container.appendChild(row);
+  }
+}
+
+function addPolygonLayer(id, geojson) {
+  map.addSource(id, { type: 'geojson', data: geojson });
+  map.addLayer({
+    id: `${id}-fill`,
+    type: 'fill',
+    source: id,
+    paint: {
+      'fill-color': ['get', 'color'],
+      'fill-opacity': 0.28,
+    },
+  });
+  map.addLayer({
+    id: `${id}-outline`,
+    type: 'line',
+    source: id,
+    paint: {
+      'line-color': ['get', 'color'],
+      'line-opacity': 0.55,
+      'line-width': 1.2,
+    },
+  });
+}
+
 async function boot() {
-  const r = await fetch('/api/events');
-  EVENTS = await r.json();
+  const [eventsR, religionsR, empiresR] = await Promise.all([
+    fetch('/api/events').then(r => r.json()),
+    fetch('/api/religions').then(r => r.json()),
+    fetch('/api/empires').then(r => r.json()),
+  ]);
+  EVENTS = eventsR;
+  RELIGIONS = religionsR;
+  EMPIRES = empiresR;
   EVENTS.sort((a, b) => a.year - b.year);
 
-  buildLegend();
+  addPolygonLayer('religions', RELIGIONS);
+  addPolygonLayer('empires', EMPIRES);
+
+  buildEventsLegend();
+  buildLayerLegend('legend-religions', RELIGIONS, activeReligions);
+  buildLayerLegend('legend-empires', EMPIRES, activeEmpires);
 
   const slider = document.getElementById('year-slider');
   slider.addEventListener('input', () => render(parseInt(slider.value, 10)));
