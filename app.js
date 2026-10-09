@@ -179,15 +179,46 @@ function addPolygonLayer(id, geojson) {
   });
 }
 
+// Join a list of {name, color, start_year, end_year, countries:[ISO3]} entries
+// against the Natural Earth countries FeatureCollection, emitting one GeoJSON
+// Feature per (entry × country) with the entry's metadata as properties.
+function expandByCountries(entries, countriesFC) {
+  const byCode = new Map();
+  for (const f of countriesFC.features) {
+    const code = f.properties.ADM0_A3;
+    if (code && code !== '-99') byCode.set(code, f);
+  }
+  const features = [];
+  for (const e of entries) {
+    for (const code of e.countries) {
+      const c = byCode.get(code);
+      if (!c) continue;
+      features.push({
+        type: 'Feature',
+        properties: {
+          name: e.name,
+          color: e.color,
+          start_year: e.start_year,
+          end_year: e.end_year,
+          country: code,
+        },
+        geometry: c.geometry,
+      });
+    }
+  }
+  return { type: 'FeatureCollection', features };
+}
+
 async function boot() {
-  const [eventsR, religionsR, empiresR] = await Promise.all([
+  const [eventsR, religionsR, empiresR, countriesR] = await Promise.all([
     fetch('/api/events').then(r => r.json()),
     fetch('/api/religions').then(r => r.json()),
     fetch('/api/empires').then(r => r.json()),
+    fetch('/api/countries').then(r => r.json()),
   ]);
   EVENTS = eventsR;
-  RELIGIONS = religionsR;
-  EMPIRES = empiresR;
+  RELIGIONS = expandByCountries(religionsR.features, countriesR);
+  EMPIRES   = expandByCountries(empiresR.features, countriesR);
   EVENTS.sort((a, b) => a.year - b.year);
 
   addPolygonLayer('religions', RELIGIONS);

@@ -1,42 +1,41 @@
 {
-  "type": "FeatureCollection",
   "features": [
-    { "type": "Feature", "properties": { "name": "Achaemenid Persian Empire", "color": "#b7791f", "start_year": -550, "end_year": -330 },
-      "geometry": { "type": "Polygon", "coordinates": [[[26,25],[26,42],[79,42],[79,25],[26,25]]] } },
+    { "name": "Achaemenid Persian Empire", "color": "#b7791f", "start_year": -550, "end_year": -330,
+      "countries": ["IRN","IRQ","AFG","TKM","UZB","TJK","AZE","ARM","GEO","TUR","SYR","LBN","ISR","PSE","JOR","EGY","PAK","CYP"] },
 
-    { "type": "Feature", "properties": { "name": "Han Dynasty", "color": "#daa520", "start_year": -202, "end_year": 220 },
-      "geometry": { "type": "Polygon", "coordinates": [[[88,22],[88,46],[123,46],[123,22],[88,22]]] } },
+    { "name": "Han Dynasty", "color": "#daa520", "start_year": -202, "end_year": 220,
+      "countries": ["CHN","PRK"] },
 
-    { "type": "Feature", "properties": { "name": "Roman Empire", "color": "#8b0000", "start_year": -27, "end_year": 476 },
-      "geometry": { "type": "Polygon", "coordinates": [[[-10,55],[8,55],[18,47],[35,42],[42,37],[36,30],[22,30],[0,36],[-9,43],[-10,55]]] } },
+    { "name": "Roman Empire", "color": "#8b0000", "start_year": -27, "end_year": 476,
+      "countries": ["ITA","FRA","ESP","PRT","GBR","BEL","NLD","LUX","CHE","AUT","HRV","SVN","HUN","SRB","BGR","ROU","GRC","MKD","MNE","BIH","ALB","TUR","CYP","SYR","LBN","ISR","PSE","JOR","EGY","LBY","TUN","DZA","MAR","MLT"] },
 
-    { "type": "Feature", "properties": { "name": "Byzantine Empire", "color": "#4b0082", "start_year": 395, "end_year": 1453 },
-      "geometry": { "type": "Polygon", "coordinates": [[[19,34],[19,42],[42,42],[46,36],[33,29],[19,34]]] } },
+    { "name": "Byzantine Empire", "color": "#4b0082", "start_year": 395, "end_year": 1453,
+      "countries": ["GRC","TUR","CYP","MKD","BGR","ALB","MNE","SRB"] },
 
-    { "type": "Feature", "properties": { "name": "Umayyad Caliphate", "color": "#006400", "start_year": 661, "end_year": 750 },
-      "geometry": { "type": "Polygon", "coordinates": [[[-10,36],[-17,32],[-17,20],[33,20],[55,13],[65,30],[62,40],[48,40],[35,37],[3,43],[-10,36]]] } },
+    { "name": "Umayyad Caliphate", "color": "#006400", "start_year": 661, "end_year": 750,
+      "countries": ["ESP","PRT","MAR","DZA","TUN","LBY","EGY","SAU","YEM","OMN","ARE","QAT","BHR","KWT","IRQ","SYR","LBN","JOR","PSE","ISR","IRN","AFG","TKM","UZB","TJK","PAK"] },
 
-    { "type": "Feature", "properties": { "name": "Mongol Empire", "color": "#191970", "start_year": 1206, "end_year": 1368 },
-      "geometry": { "type": "Polygon", "coordinates": [[[30,42],[30,60],[135,60],[135,30],[85,25],[55,30],[44,34],[30,42]]] } },
+    { "name": "Mongol Empire", "color": "#191970", "start_year": 1206, "end_year": 1368,
+      "countries": ["MNG","CHN","RUS","KAZ","KGZ","UZB","TJK","TKM","AFG","IRN","IRQ","AZE","GEO","ARM","PRK","KOR"] },
 
-    { "type": "Feature", "properties": { "name": "Ottoman Empire", "color": "#008080", "start_year": 1299, "end_year": 1922 },
-      "geometry": { "type": "Polygon", "coordinates": [[[14,37],[14,46],[42,46],[48,38],[55,20],[33,20],[20,30],[14,37]]] } },
+    { "name": "Ottoman Empire", "color": "#008080", "start_year": 1299, "end_year": 1922,
+      "countries": ["TUR","GRC","CYP","BGR","MKD","SRB","MNE","BIH","ALB","HUN","ROU","MDA","SYR","LBN","ISR","PSE","JOR","IRQ","SAU","EGY","LBY","TUN"] },
 
-    { "type": "Feature", "properties": { "name": "Mughal Empire", "color": "#cc5500", "start_year": 1526, "end_year": 1857 },
-      "geometry": { "type": "Polygon", "coordinates": [[[65,8],[65,36],[94,36],[94,8],[65,8]]] } },
+    { "name": "Mughal Empire", "color": "#cc5500", "start_year": 1526, "end_year": 1857,
+      "countries": ["IND","PAK","BGD","AFG"] },
 
-    { "type": "Feature", "properties": { "name": "Qing Dynasty", "color": "#355e3b", "start_year": 1644, "end_year": 1912 },
-      "geometry": { "type": "Polygon", "coordinates": [[[73,20],[73,54],[135,54],[135,20],[73,20]]] } },
+    { "name": "Qing Dynasty", "color": "#355e3b", "start_year": 1644, "end_year": 1912,
+      "countries": ["CHN","MNG","TWN"] },
 
-    { "type": "Feature", "properties": { "name": "British Empire", "color": "#4682b4", "start_year": 1600, "end_year": 1950 },
-      "geometry": { "type": "Polygon", "coordinates": [[[-11,49],[2,61],[-11,61],[-11,49]]] } },
-    { "type": "Feature", "properties": { "name": "British Empire", "color": "#4682b4", "start_year": 1757, "end_year": 1947 },
-      "geometry": { "type": "Polygon", "coordinates": [[[65,8],[65,36],[97,36],[97,8],[65,8]]] } },
-    { "type": "Feature", "properties": { "name": "British Empire", "color": "#4682b4", "start_year": 1788, "end_year": 1950 },
-      "geometry": { "type": "Polygon", "coordinates": [[[112,-45],[112,-10],[155,-10],[155,-45],[112,-45]]] } },
-    { "type": "Feature", "properties": { "name": "British Empire", "color": "#4682b4", "start_year": 1867, "end_year": 1950 },
-      "geometry": { "type": "Polygon", "coordinates": [[[-140,42],[-140,80],[-55,80],[-55,45],[-80,42],[-140,42]]] } },
-    { "type": "Feature", "properties": { "name": "British Empire", "color": "#4682b4", "start_year": 1870, "end_year": 1950 },
-      "geometry": { "type": "Polygon", "coordinates": [[[-17,0],[-17,36],[33,36],[33,-35],[14,-35],[-17,0]]] } }
+    { "name": "British Empire", "color": "#4682b4", "start_year": 1600, "end_year": 1950,
+      "countries": ["GBR","IRL"] },
+    { "name": "British Empire", "color": "#4682b4", "start_year": 1757, "end_year": 1947,
+      "countries": ["IND","PAK","BGD","MMR","LKA"] },
+    { "name": "British Empire", "color": "#4682b4", "start_year": 1788, "end_year": 1950,
+      "countries": ["AUS","NZL"] },
+    { "name": "British Empire", "color": "#4682b4", "start_year": 1763, "end_year": 1950,
+      "countries": ["CAN"] },
+    { "name": "British Empire", "color": "#4682b4", "start_year": 1870, "end_year": 1950,
+      "countries": ["ZAF","EGY","SDN","KEN","UGA","TZA","NGA","GHA","ZWE","ZMB","MWI"] }
   ]
 }
